@@ -1,0 +1,79 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to262__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy src/popover/popover.tsx</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed src/popover/popover.tsx</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next"><a href="#difflib_chg_to262__0">f</a></td><td class="diff_header" id="from262_1">1</td><td nowrap="nowrap">import&nbsp;*&nbsp;as&nbsp;Nerv&nbsp;from&nbsp;'nervjs'</td><td class="diff_next"><a href="#difflib_chg_to262__0">f</a></td><td class="diff_header" id="to262_1">1</td><td nowrap="nowrap">import&nbsp;*&nbsp;as&nbsp;Nerv&nbsp;from&nbsp;'nervjs'</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_2">2</td><td nowrap="nowrap">type&nbsp;triggerType&nbsp;=&nbsp;'hover'&nbsp;|&nbsp;'focus'&nbsp;|&nbsp;'click'</td><td class="diff_next"></td><td class="diff_header" id="to262_2">2</td><td nowrap="nowrap">type&nbsp;triggerType&nbsp;=&nbsp;'hover'&nbsp;|&nbsp;'focus'&nbsp;|&nbsp;'click'</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_3">3</td><td nowrap="nowrap">class&nbsp;Popover&nbsp;extends&nbsp;Nerv.Component&lt;PopoverProps,&nbsp;any&gt;&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to262_3">3</td><td nowrap="nowrap">class&nbsp;Popover&nbsp;extends&nbsp;Nerv.Component&lt;PopoverProps,&nbsp;any&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;componentDidMount&nbsp;()&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to262_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;componentDidMount&nbsp;()&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;switch&nbsp;(this.props.trigger)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to262_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;switch&nbsp;(this.props.trigger)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'hover':</td><td class="diff_next"></td><td class="diff_header" id="to262_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'hover':</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td><td class="diff_next"></td><td class="diff_header" id="to262_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'click':</td><td class="diff_next"></td><td class="diff_header" id="to262_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'click':</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td><td class="diff_next"></td><td class="diff_header" id="to262_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'focus':</td><td class="diff_next"></td><td class="diff_header" id="to262_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'focus':</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td><td class="diff_next"></td><td class="diff_header" id="to262_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to262__0"></td><td class="diff_header" id="from262_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:</td><td class="diff_next"></td><td class="diff_header" id="to262_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;window.addEventListener('click',&nbsp;this.clickCancelHandler)</td><td class="diff_next"></td><td class="diff_header" id="to262_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;window.addEventListener('click',&nbsp;this.clickCancelHandler)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td><td class="diff_next"></td><td class="diff_header" id="to262_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to262_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to262_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to262__top">t</a></td><td class="diff_header" id="from262_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;componentWillUn<span class="diff_chg">M</span>ount&nbsp;()&nbsp;{</td><td class="diff_next"><a href="#difflib_chg_to262__top">t</a></td><td class="diff_header" id="to262_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;componentWillUn<span class="diff_chg">m</span>ount&nbsp;()&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;switch&nbsp;(this.props.trigger)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to262_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;switch&nbsp;(this.props.trigger)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'hover':</td><td class="diff_next"></td><td class="diff_header" id="to262_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'hover':</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td><td class="diff_next"></td><td class="diff_header" id="to262_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'click':</td><td class="diff_next"></td><td class="diff_header" id="to262_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'click':</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td><td class="diff_next"></td><td class="diff_header" id="to262_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'focus':</td><td class="diff_next"></td><td class="diff_header" id="to262_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case&nbsp;'focus':</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td><td class="diff_next"></td><td class="diff_header" id="to262_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:</td><td class="diff_next"></td><td class="diff_header" id="to262_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_26">26</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;window.removeEventListener('click',&nbsp;this.clickCancelHandler)</td><td class="diff_next"></td><td class="diff_header" id="to262_26">26</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;window.removeEventListener('click',&nbsp;this.clickCancelHandler)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_27">27</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td><td class="diff_next"></td><td class="diff_header" id="to262_27">27</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_28">28</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to262_28">28</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_29">29</td><td nowrap="nowrap">&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to262_29">29</td><td nowrap="nowrap">&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from262_30">30</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to262_30">30</td><td nowrap="nowrap">}</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

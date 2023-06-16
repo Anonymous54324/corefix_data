@@ -1,0 +1,70 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to21__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy nodejs/routes/get.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed nodejs/routes/get.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to21__0"><a href="#difflib_chg_to21__0">f</a></td><td class="diff_header" id="from21_1">1</td><td nowrap="nowrap">var&nbsp;url&nbsp;=&nbsp;require('url');</td><td class="diff_next"><a href="#difflib_chg_to21__0">f</a></td><td class="diff_header" id="to21_1">1</td><td nowrap="nowrap">var&nbsp;url&nbsp;=&nbsp;require('url');</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_2">2</td><td nowrap="nowrap">var&nbsp;danmaku&nbsp;=&nbsp;require('../models/danmaku');</td><td class="diff_next"></td><td class="diff_header" id="to21_2">2</td><td nowrap="nowrap">var&nbsp;danmaku&nbsp;=&nbsp;require('../models/danmaku');</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_3">3</td><td nowrap="nowrap">var&nbsp;redis&nbsp;=&nbsp;require('../tools/redis');</td><td class="diff_next"></td><td class="diff_header" id="to21_3">3</td><td nowrap="nowrap">var&nbsp;redis&nbsp;=&nbsp;require('../tools/redis');</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_4">4</td><td nowrap="nowrap">module.exports&nbsp;=&nbsp;function&nbsp;(req,&nbsp;res)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to21_4">4</td><td nowrap="nowrap">module.exports&nbsp;=&nbsp;function&nbsp;(req,&nbsp;res)&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to21__1">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to21__1">n</a></td><td class="diff_header" id="to21_5">5</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;res.header('content-type',&nbsp;'application/json;&nbsp;charset=utf-8');</span></td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to21__1"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to21_6">6</td><td nowrap="nowrap"><span class="diff_add">&nbsp;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to21_7">7</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;ip&nbsp;=&nbsp;req.headers['x-forwarded-for']&nbsp;||</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;query&nbsp;=&nbsp;url.parse(req.url,true).query;</td><td class="diff_next"></td><td class="diff_header" id="to21_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;query&nbsp;=&nbsp;url.parse(req.url,true).query;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;max&nbsp;=&nbsp;query.max;</td><td class="diff_next"></td><td class="diff_header" id="to21_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;max&nbsp;=&nbsp;query.max;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;redis.client.get(`dplayer${id}`,&nbsp;function(err,&nbsp;reply)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to21_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;redis.client.get(`dplayer${id}`,&nbsp;function(err,&nbsp;reply)&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to21__top">t</a></td><td class="diff_header" id="from21_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(reply)&nbsp;{<span class="diff_sub">}</span></td><td class="diff_next"><a href="#difflib_chg_to21__top">t</a></td><td class="diff_header" id="to21_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(reply)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to21_12">12</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to21_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;danmaku.find({player:&nbsp;id},&nbsp;function&nbsp;(err,&nbsp;data)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to21_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;danmaku.find({player:&nbsp;id},&nbsp;function&nbsp;(err,&nbsp;data)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dan.danmaku&nbsp;=&nbsp;max&nbsp;?&nbsp;data.slice(0,&nbsp;max)&nbsp;:&nbsp;data;</td><td class="diff_next"></td><td class="diff_header" id="to21_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dan.danmaku&nbsp;=&nbsp;max&nbsp;?&nbsp;data.slice(0,&nbsp;max)&nbsp;:&nbsp;data;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;sendDan&nbsp;=&nbsp;JSON.stringify(dan);</td><td class="diff_next"></td><td class="diff_header" id="to21_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;sendDan&nbsp;=&nbsp;JSON.stringify(dan);</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.send(sendDan);</td><td class="diff_next"></td><td class="diff_header" id="to21_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.send(sendDan);</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})</td><td class="diff_next"></td><td class="diff_header" id="to21_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to21_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;});</td><td class="diff_next"></td><td class="diff_header" id="to21_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;});</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from21_17">17</td><td nowrap="nowrap">};</td><td class="diff_next"></td><td class="diff_header" id="to21_21">21</td><td nowrap="nowrap">};</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

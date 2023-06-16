@@ -1,0 +1,63 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to280__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy routes/users.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed routes/users.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to280__0"><a href="#difflib_chg_to280__0">f</a></td><td class="diff_header" id="from280_1">1</td><td nowrap="nowrap">var&nbsp;rule&nbsp;=&nbsp;require('../tools/rule');</td><td class="diff_next"><a href="#difflib_chg_to280__0">f</a></td><td class="diff_header" id="to280_1">1</td><td nowrap="nowrap">var&nbsp;rule&nbsp;=&nbsp;require('../tools/rule');</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from280_2">2</td><td nowrap="nowrap">var&nbsp;usermodel&nbsp;=&nbsp;require('../models/users');</td><td class="diff_next"></td><td class="diff_header" id="to280_2">2</td><td nowrap="nowrap">var&nbsp;usermodel&nbsp;=&nbsp;require('../models/users');</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to280__1"></td><td class="diff_header" id="from280_3">3</td><td nowrap="nowrap">router.post('/login',&nbsp;function(req,&nbsp;res,&nbsp;next)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to280_3">3</td><td nowrap="nowrap">router.post('/login',&nbsp;function(req,&nbsp;res,&nbsp;next)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from280_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;usermodel.findByEmail(req.body.email,function(err,user){</td><td class="diff_next"></td><td class="diff_header" id="to280_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;usermodel.findByEmail(req.body.email,function(err,user){</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to280__1">n</a></td><td class="diff_header" id="from280_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if(user.length&lt;=0){<span class="diff_sub">}else{</span></td><td class="diff_next"><a href="#difflib_chg_to280__1">n</a></td><td class="diff_header" id="to280_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if(user.length&lt;=0){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to280_6">6</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}else{</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from280_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(rule.md5(req.body.password)&nbsp;==&nbsp;user[0].passWord){</td><td class="diff_next"></td><td class="diff_header" id="to280_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(rule.md5(req.body.password)&nbsp;==&nbsp;user[0].passWord){</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to280__top">t</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to280__top">t</a></td><td class="diff_header" id="to280_8">8</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.cookie('email',&nbsp;user[0].email&nbsp;,&nbsp;{&nbsp;maxAge:&nbsp;60&nbsp;*&nbsp;1000&nbsp;*&nbsp;60&nbsp;*&nbsp;24&nbsp;*&nbsp;30&nbsp;,&nbsp;httpOnly:&nbsp;true});</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from280_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.cookie('name_sig',&nbsp;rule.md5(user[0].<span class="diff_sub">us</span>e<span class="diff_chg">rN</span>a<span class="diff_chg">me</span>+'this_is_mixin_string'+req.cookies['connect.id'])&nbsp;,&nbsp;{&nbsp;maxAge:&nbsp;60&nbsp;*&nbsp;1000&nbsp;*&nbsp;60&nbsp;*&nbsp;24&nbsp;*&nbsp;30&nbsp;});</td><td class="diff_next"></td><td class="diff_header" id="to280_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res.cookie('name_sig',&nbsp;rule.md5(user[0].e<span class="diff_chg">m</span>a<span class="diff_chg">il</span>+'this_is_mixin_string'+req.cookies['connect.id'])&nbsp;,&nbsp;{&nbsp;maxAge:&nbsp;60&nbsp;*&nbsp;1000&nbsp;*&nbsp;60&nbsp;*&nbsp;24&nbsp;*&nbsp;30&nbsp;<span class="diff_add">,&nbsp;httpOnly:&nbsp;true</span>});</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from280_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}else{<span class="diff_sub">}</span></td><td class="diff_next"></td><td class="diff_header" id="to280_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}else{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to280_11">11</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from280_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to280_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from280_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;})</td><td class="diff_next"></td><td class="diff_header" id="to280_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;})</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from280_11">11</td><td nowrap="nowrap">});</td><td class="diff_next"></td><td class="diff_header" id="to280_14">14</td><td nowrap="nowrap">});</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

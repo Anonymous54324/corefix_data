@@ -1,0 +1,79 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to187__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy app/crash_reporter.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed app/crash_reporter.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next"><a href="#difflib_chg_to187__0">f</a></td><td class="diff_header" id="from187_1">1</td><td nowrap="nowrap">const&nbsp;os&nbsp;=&nbsp;require('os');</td><td class="diff_next"><a href="#difflib_chg_to187__0">f</a></td><td class="diff_header" id="to187_1">1</td><td nowrap="nowrap">const&nbsp;os&nbsp;=&nbsp;require('os');</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_2">2</td><td nowrap="nowrap">const&nbsp;osName&nbsp;=&nbsp;require('os-name');</td><td class="diff_next"></td><td class="diff_header" id="to187_2">2</td><td nowrap="nowrap">const&nbsp;osName&nbsp;=&nbsp;require('os-name');</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_3">3</td><td nowrap="nowrap">const&nbsp;is&nbsp;=&nbsp;require('electron-is');</td><td class="diff_next"></td><td class="diff_header" id="to187_3">3</td><td nowrap="nowrap">const&nbsp;is&nbsp;=&nbsp;require('electron-is');</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_4">4</td><td nowrap="nowrap">function&nbsp;raven_config()&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to187_4">4</td><td nowrap="nowrap">function&nbsp;raven_config()&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;let&nbsp;config_promise&nbsp;=&nbsp;new&nbsp;Promise((resolve,&nbsp;reject)&nbsp;=&gt;&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to187_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;let&nbsp;config_promise&nbsp;=&nbsp;new&nbsp;Promise((resolve,&nbsp;reject)&nbsp;=&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;let&nbsp;config&nbsp;=&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to187_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;let&nbsp;config&nbsp;=&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;release:&nbsp;app.getVersion(),</td><td class="diff_next"></td><td class="diff_header" id="to187_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;release:&nbsp;app.getVersion(),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;environment:&nbsp;is.dev()&nbsp;?&nbsp;'development'&nbsp;:&nbsp;'production',</td><td class="diff_next"></td><td class="diff_header" id="to187_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;environment:&nbsp;is.dev()&nbsp;?&nbsp;'development'&nbsp;:&nbsp;'production',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;osName(),</td><td class="diff_next"></td><td class="diff_header" id="to187_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;osName(),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tags:&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to187_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tags:&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;os_arch:&nbsp;os.arch(),</td><td class="diff_next"></td><td class="diff_header" id="to187_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;os_arch:&nbsp;os.arch(),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;os_platform:&nbsp;os.platform(),</td><td class="diff_next"></td><td class="diff_header" id="to187_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;os_platform:&nbsp;os.platform(),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;os_release:&nbsp;os.release(),</td><td class="diff_next"></td><td class="diff_header" id="to187_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;os_release:&nbsp;os.release(),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;os_type:&nbsp;os.type(),</td><td class="diff_next"></td><td class="diff_header" id="to187_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;os_type:&nbsp;os.type(),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;os_totalmem:&nbsp;os_totalmem_gb&nbsp;+&nbsp;'GB',</td><td class="diff_next"></td><td class="diff_header" id="to187_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;os_totalmem:&nbsp;os_totalmem_gb&nbsp;+&nbsp;'GB',</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to187__0"></td><td class="diff_header" id="from187_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hostname:&nbsp;app.config.get('host'),</td><td class="diff_next"></td><td class="diff_header" id="to187_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hostname:&nbsp;app.config.get('host'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;user_style:&nbsp;app.config.get('acceptUserStyles'),</td><td class="diff_next"></td><td class="diff_header" id="to187_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;user_style:&nbsp;app.config.get('acceptUserStyles'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;user_script:&nbsp;app.config.get('acceptUserScripts')</td><td class="diff_next"></td><td class="diff_header" id="to187_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;user_script:&nbsp;app.config.get('acceptUserScripts')</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</td><td class="diff_next"></td><td class="diff_header" id="to187_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataCallback:&nbsp;(data)&nbsp;=&gt;&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to187_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataCallback:&nbsp;(data)&nbsp;=&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to187__top">t</a></td><td class="diff_header" id="from187_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(os_freemem&nbsp;&lt;&nbsp;1024)&nbsp;{<span class="diff_sub">}&nbsp;else&nbsp;{</span></td><td class="diff_next"><a href="#difflib_chg_to187__top">t</a></td><td class="diff_header" id="to187_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(os_freemem&nbsp;&lt;&nbsp;1024)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to187_22">22</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;else&nbsp;{</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Math.round(os_freemem&nbsp;/&nbsp;1024);</td><td class="diff_next"></td><td class="diff_header" id="to187_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_add">&nbsp;os_freemem&nbsp;=</span>&nbsp;Math.round(os_freemem&nbsp;/&nbsp;1024)<span class="diff_add">&nbsp;+&nbsp;'GB'</span>;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to187_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;data;</td><td class="diff_next"></td><td class="diff_header" id="to187_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;data;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to187_26">26</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_26">26</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;};</td><td class="diff_next"></td><td class="diff_header" id="to187_27">27</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;};</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_27">27</td><td nowrap="nowrap">&nbsp;&nbsp;});</td><td class="diff_next"></td><td class="diff_header" id="to187_28">28</td><td nowrap="nowrap">&nbsp;&nbsp;});</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_28">28</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;config_promise;</td><td class="diff_next"></td><td class="diff_header" id="to187_29">29</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;config_promise;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from187_29">29</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to187_30">30</td><td nowrap="nowrap">}</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

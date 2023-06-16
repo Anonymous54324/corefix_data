@@ -1,0 +1,69 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to330__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy ui/js/base.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed ui/js/base.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next"><a href="#difflib_chg_to330__0">f</a></td><td class="diff_header" id="from330_1">1</td><td nowrap="nowrap">(function($){</td><td class="diff_next"><a href="#difflib_chg_to330__0">f</a></td><td class="diff_header" id="to330_1">1</td><td nowrap="nowrap">(function($){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;var&nbsp;sites&nbsp;=&nbsp;JSON.parse(localStorage.getItem('vampd'));</td><td class="diff_next"></td><td class="diff_header" id="to330_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;var&nbsp;sites&nbsp;=&nbsp;JSON.parse(localStorage.getItem('vampd'));</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;function&nbsp;createSite()&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to330_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;function&nbsp;createSite()&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;site.name&nbsp;=&nbsp;site_name;</td><td class="diff_next"></td><td class="diff_header" id="to330_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;site.name&nbsp;=&nbsp;site_name;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;site.override_attributes&nbsp;=&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to330_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;site.override_attributes&nbsp;=&nbsp;{</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to330__0"></td><td class="diff_header" id="from330_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drupal:&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to330_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drupal:&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sites:&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to330_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sites:&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to330_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to330_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;};</td><td class="diff_next"></td><td class="diff_header" id="to330_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;};</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to330__top">t</a></td><td class="diff_header" id="from330_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;site.override_attributes.drupal.sites[site_name].action<span class="diff_sub">s</span>&nbsp;=&nbsp;actions;</td><td class="diff_next"><a href="#difflib_chg_to330__top">t</a></td><td class="diff_header" id="to330_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;site.override_attributes.drupal.sites[site_name].<span class="diff_add">deploy.</span>action&nbsp;=&nbsp;actions;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;site;</td><td class="diff_next"></td><td class="diff_header" id="to330_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;site;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to330_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;$('#submit').on('click',&nbsp;function(e)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to330_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;$('#submit').on('click',&nbsp;function(e)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(validate)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to330_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(validate)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;site&nbsp;=&nbsp;createSite();</td><td class="diff_next"></td><td class="diff_header" id="to330_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;site&nbsp;=&nbsp;createSite();</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sites[site.name]&nbsp;=&nbsp;site;</td><td class="diff_next"></td><td class="diff_header" id="to330_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sites[site.name]&nbsp;=&nbsp;site;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to330_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;});</td><td class="diff_next"></td><td class="diff_header" id="to330_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;});</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from330_20">20</td><td nowrap="nowrap">})(jQuery)</td><td class="diff_next"></td><td class="diff_header" id="to330_20">20</td><td nowrap="nowrap">})(jQuery)</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

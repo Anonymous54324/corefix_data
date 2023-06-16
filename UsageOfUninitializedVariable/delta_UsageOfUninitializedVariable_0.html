@@ -1,0 +1,72 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to308__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy packages/react/components/list-item-content.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed packages/react/components/list-item-content.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to308__0"><a href="#difflib_chg_to308__0">f</a></td><td class="diff_header" id="from308_1">1</td><td nowrap="nowrap">import&nbsp;React&nbsp;from&nbsp;'react';</td><td class="diff_next"><a href="#difflib_chg_to308__0">f</a></td><td class="diff_header" id="to308_1">1</td><td nowrap="nowrap">import&nbsp;React&nbsp;from&nbsp;'react';</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_2">2</td><td nowrap="nowrap">class&nbsp;F7ListItemContent&nbsp;extends&nbsp;React.Component&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to308_2">2</td><td nowrap="nowrap">class&nbsp;F7ListItemContent&nbsp;extends&nbsp;React.Component&nbsp;{</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to308__1"></td><td class="diff_header" id="from308_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;render()&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to308_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;render()&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;let&nbsp;textEl;</td><td class="diff_next"></td><td class="diff_header" id="to308_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;let&nbsp;textEl;</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to308__1">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to308__1">n</a></td><td class="diff_header" id="to308_5">5</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;textEl&nbsp;=&nbsp;React.createElement('div',&nbsp;{&nbsp;className:&nbsp;'item-text'&nbsp;},&nbsp;text,&nbsp;slotsText);</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(isMedia)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to308_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(isMedia)&nbsp;{</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to308__2"></td><td class="diff_header" id="from308_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;innerEl&nbsp;=&nbsp;React.createElement('div',&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to308_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;innerEl&nbsp;=&nbsp;React.createElement('div',&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to308__2">n</a></td><td class="diff_header" id="from308_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ref:&nbsp;__reactNode&nbsp;=&gt;&nbsp;{<span class="diff_sub">},</span></td><td class="diff_next"><a href="#difflib_chg_to308__2">n</a></td><td class="diff_header" id="to308_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ref:&nbsp;__reactNode&nbsp;=&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to308_9">9</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span></td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to308__3"></td><td class="diff_header" id="from308_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;className:&nbsp;'item-inner'</td><td class="diff_next"></td><td class="diff_header" id="to308_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;className:&nbsp;'item-inner'</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;slotsInnerStart,&nbsp;headerEl,&nbsp;titleRowEl,&nbsp;subtitleEl,&nbsp;textEl,&nbsp;slotsInner,&nbsp;footerEl,&nbsp;slotsInnerEnd);</td><td class="diff_next"></td><td class="diff_header" id="to308_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;slotsInnerStart,&nbsp;headerEl,&nbsp;titleRowEl,&nbsp;subtitleEl,&nbsp;textEl,&nbsp;slotsInner,&nbsp;footerEl,&nbsp;slotsInnerEnd);</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to308__3">n</a></td><td class="diff_header" id="from308_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;else&nbsp;{<span class="diff_sub">}</span></td><td class="diff_next"><a href="#difflib_chg_to308__3">n</a></td><td class="diff_header" id="to308_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;else&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to308_13">13</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;React.createElement(ItemContentTag,&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to308_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;React.createElement(ItemContentTag,&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to308__top">t</a></td><td class="diff_header" id="from308_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ref:&nbsp;__reactNode&nbsp;=&gt;&nbsp;{<span class="diff_sub">},</span></td><td class="diff_next"><a href="#difflib_chg_to308__top">t</a></td><td class="diff_header" id="to308_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ref:&nbsp;__reactNode&nbsp;=&gt;&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to308_16">16</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id:&nbsp;id,</td><td class="diff_next"></td><td class="diff_header" id="to308_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id:&nbsp;id,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style:&nbsp;style,</td><td class="diff_next"></td><td class="diff_header" id="to308_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style:&nbsp;style,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;className:&nbsp;classes,</td><td class="diff_next"></td><td class="diff_header" id="to308_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;className:&nbsp;classes,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;onClick:&nbsp;self.onClick.bind(self)</td><td class="diff_next"></td><td class="diff_header" id="to308_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;onClick:&nbsp;self.onClick.bind(self)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;slotsContentStart,&nbsp;inputEl,&nbsp;inputIconEl,&nbsp;mediaEl,&nbsp;innerEl,&nbsp;slotsContent,&nbsp;slotsContentEnd);</td><td class="diff_next"></td><td class="diff_header" id="to308_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;slotsContentStart,&nbsp;inputEl,&nbsp;inputIconEl,&nbsp;mediaEl,&nbsp;innerEl,&nbsp;slotsContent,&nbsp;slotsContentEnd);</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to308_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from308_19">19</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to308_23">23</td><td nowrap="nowrap">}</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

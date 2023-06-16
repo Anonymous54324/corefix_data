@@ -1,0 +1,94 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to227__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy src/Alert.vue</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed src/Alert.vue</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next"><a href="#difflib_chg_to227__0">f</a></td><td class="diff_header" id="from227_1">1</td><td nowrap="nowrap">&lt;template&gt;</td><td class="diff_next"><a href="#difflib_chg_to227__0">f</a></td><td class="diff_header" id="to227_1">1</td><td nowrap="nowrap">&lt;template&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;&lt;div&nbsp;</td><td class="diff_next"></td><td class="diff_header" id="to227_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;&lt;div&nbsp;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;v-show="showAlert"&nbsp;</td><td class="diff_next"></td><td class="diff_header" id="to227_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;v-show="showAlert"&nbsp;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;class="alert"</td><td class="diff_next"></td><td class="diff_header" id="to227_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;class="alert"</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;v-class="</td><td class="diff_next"></td><td class="diff_header" id="to227_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;v-class="</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert-success:type&nbsp;==&nbsp;'success',</td><td class="diff_next"></td><td class="diff_header" id="to227_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert-success:type&nbsp;==&nbsp;'success',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert-warning:type&nbsp;==&nbsp;'warning',</td><td class="diff_next"></td><td class="diff_header" id="to227_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert-warning:type&nbsp;==&nbsp;'warning',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert-info:type&nbsp;==&nbsp;'info',</td><td class="diff_next"></td><td class="diff_header" id="to227_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert-info:type&nbsp;==&nbsp;'info',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert-danger:type&nbsp;==&nbsp;'danger',</td><td class="diff_next"></td><td class="diff_header" id="to227_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert-danger:type&nbsp;==&nbsp;'danger',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;"</td><td class="diff_next"></td><td class="diff_header" id="to227_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;"</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;v-transition="fade"</td><td class="diff_next"></td><td class="diff_header" id="to227_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;v-transition="fade"</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;role="alert"&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;role="alert"&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&lt;button&nbsp;v-show="dismiss"&nbsp;type="button"&nbsp;class="close"&nbsp;</td><td class="diff_next"></td><td class="diff_header" id="to227_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&lt;button&nbsp;v-show="dismiss"&nbsp;type="button"&nbsp;class="close"&nbsp;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v-on="click:showAlert&nbsp;=&nbsp;false"&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v-on="click:showAlert&nbsp;=&nbsp;false"&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;&gt;&amp;times;&lt;/span&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;&gt;&amp;times;&lt;/span&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/button&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/button&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&lt;content&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&lt;content&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/content&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/content&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&lt;/div&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&lt;/div&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_20">20</td><td nowrap="nowrap">&lt;/template&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_20">20</td><td nowrap="nowrap">&lt;/template&gt;</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to227__0"></td><td class="diff_header" id="from227_21">21</td><td nowrap="nowrap">&lt;script&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_21">21</td><td nowrap="nowrap">&lt;script&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;export&nbsp;default&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to227_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;export&nbsp;default&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;props:&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to227_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;props:&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type:&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to227_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type:&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type:&nbsp;String,</td><td class="diff_next"></td><td class="diff_header" id="to227_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type:&nbsp;String,</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to227__1">n</a></td><td class="diff_header" id="from227_26">26</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;require:&nbsp;true,</span></td><td class="diff_next"><a href="#difflib_chg_to227__1">n</a></td><td class="diff_header" id="to227_26">26</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:&nbsp;'success',</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_27">27</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</td><td class="diff_next"></td><td class="diff_header" id="to227_27">27</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to227__1"></td><td class="diff_header" id="from227_28">28</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dismiss:&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to227_28">28</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dismiss:&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_29">29</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type:&nbsp;Boolean,</td><td class="diff_next"></td><td class="diff_header" id="to227_29">29</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type:&nbsp;Boolean,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_30">30</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:&nbsp;false,</td><td class="diff_next"></td><td class="diff_header" id="to227_30">30</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:&nbsp;false,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_31">31</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</td><td class="diff_next"></td><td class="diff_header" id="to227_31">31</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_32">32</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;},</td><td class="diff_next"></td><td class="diff_header" id="to227_32">32</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;},</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to227__top">t</a></td><td class="diff_header" id="from227_33">33</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;data()&nbsp;{<span class="diff_sub">},</span></td><td class="diff_next"><a href="#difflib_chg_to227__top">t</a></td><td class="diff_header" id="to227_33">33</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;data()&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to227_34">34</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;},</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_34">34</td><td nowrap="nowrap">&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to227_35">35</td><td nowrap="nowrap">&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_35">35</td><td nowrap="nowrap">&lt;/script&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_36">36</td><td nowrap="nowrap">&lt;/script&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_36">36</td><td nowrap="nowrap">&lt;style&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_37">37</td><td nowrap="nowrap">&lt;style&gt;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_37">37</td><td nowrap="nowrap">.fade-transition&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to227_38">38</td><td nowrap="nowrap">.fade-transition&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_38">38</td><td nowrap="nowrap">&nbsp;&nbsp;transition:&nbsp;opacity&nbsp;.15s&nbsp;ease;</td><td class="diff_next"></td><td class="diff_header" id="to227_39">39</td><td nowrap="nowrap">&nbsp;&nbsp;transition:&nbsp;opacity&nbsp;.15s&nbsp;ease;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_39">39</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to227_40">40</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_40">40</td><td nowrap="nowrap">.fade-enter,</td><td class="diff_next"></td><td class="diff_header" id="to227_41">41</td><td nowrap="nowrap">.fade-enter,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_41">41</td><td nowrap="nowrap">.fade-leave&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to227_42">42</td><td nowrap="nowrap">.fade-leave&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_42">42</td><td nowrap="nowrap">&nbsp;&nbsp;opacity:&nbsp;0;</td><td class="diff_next"></td><td class="diff_header" id="to227_43">43</td><td nowrap="nowrap">&nbsp;&nbsp;opacity:&nbsp;0;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_43">43</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to227_44">44</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from227_44">44</td><td nowrap="nowrap">&lt;/style&gt;</td><td class="diff_next"></td><td class="diff_header" id="to227_45">45</td><td nowrap="nowrap">&lt;/style&gt;</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

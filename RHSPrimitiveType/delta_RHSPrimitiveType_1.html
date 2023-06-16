@@ -1,0 +1,61 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to333__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy dist/purify.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed dist/purify.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to333__1"><a href="#difflib_chg_to333__1">n</a></td><td class="diff_header" id="from333_1">1</td><td nowrap="nowrap"><span class="diff_sub">(function&nbsp;(global,&nbsp;factory)&nbsp;{}(this,&nbsp;(function&nbsp;()&nbsp;{&nbsp;</span></td><td class="diff_next"><a href="#difflib_chg_to333__1">n</a></td><td class="diff_header" id="to333_1">1</td><td nowrap="nowrap"><span class="diff_add">(function&nbsp;(global,&nbsp;factory)&nbsp;{</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to333_2">2</td><td nowrap="nowrap"><span class="diff_add">}(this,&nbsp;(function&nbsp;()&nbsp;{&nbsp;'use&nbsp;strict';</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from333_2">2</td><td nowrap="nowrap">function&nbsp;createDOMPurify()&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to333_3">3</td><td nowrap="nowrap">function&nbsp;createDOMPurify()&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from333_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;var&nbsp;_sanitizeElements&nbsp;=&nbsp;function&nbsp;_sanitizeElements(currentNode)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to333_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;var&nbsp;_sanitizeElements&nbsp;=&nbsp;function&nbsp;_sanitizeElements(currentNode)&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to333__top">t</a></td><td class="diff_header" id="from333_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;((tagName&nbsp;===&nbsp;'svg'&nbsp;||&nbsp;tagName&nbsp;===&nbsp;'math')&nbsp;&amp;&amp;&nbsp;(currentNode.innerHTML&nbsp;&amp;&amp;&nbsp;currentNode.innerHTML.match(/&lt;template/i)&nbsp;||&nbsp;currentNode<span class="diff_chg">&nbsp;</span>in<span class="diff_chg">s</span>t<span class="diff_chg">anceof&nbsp;'</span>SVGAnimatedString'))&nbsp;{<span class="diff_sub">}</span></td><td class="diff_next"><a href="#difflib_chg_to333__top">t</a></td><td class="diff_header" id="to333_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;((tagName&nbsp;===&nbsp;'svg'&nbsp;||&nbsp;tagName&nbsp;===&nbsp;'math')&nbsp;&amp;&amp;&nbsp;(currentNode.innerHTML&nbsp;&amp;&amp;&nbsp;currentNode.innerHTML.match(/&lt;template/i)&nbsp;||&nbsp;currentNode<span class="diff_chg">.toStr</span>in<span class="diff_chg">g()&nbsp;===&nbsp;'[objec</span>t<span class="diff_chg">&nbsp;</span>SVGAnimatedString<span class="diff_add">]</span>'))&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to333_6">6</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from333_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;false;</td><td class="diff_next"></td><td class="diff_header" id="to333_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;false;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from333_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;};</td><td class="diff_next"></td><td class="diff_header" id="to333_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;};</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from333_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;DOMPurify;</td><td class="diff_next"></td><td class="diff_header" id="to333_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;DOMPurify;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from333_8">8</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to333_10">10</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from333_9">9</td><td nowrap="nowrap">return&nbsp;purify;</td><td class="diff_next"></td><td class="diff_header" id="to333_11">11</td><td nowrap="nowrap">return&nbsp;purify;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from333_10">10</td><td nowrap="nowrap">})));</td><td class="diff_next"></td><td class="diff_header" id="to333_12">12</td><td nowrap="nowrap">})));</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

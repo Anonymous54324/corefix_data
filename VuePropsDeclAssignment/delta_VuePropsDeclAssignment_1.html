@@ -1,0 +1,71 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to279__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy packages/layer/src/layer.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed packages/layer/src/layer.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to279__0"><a href="#difflib_chg_to279__top">t</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to279__top">t</a></td><td class="diff_header" id="to279_1">1</td><td nowrap="nowrap"><span class="diff_add">&nbsp;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to279_2">2</td><td nowrap="nowrap"><span class="diff_add">import&nbsp;layerVue&nbsp;from&nbsp;'./layer.vue';</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_1">1</td><td nowrap="nowrap">import&nbsp;Vue&nbsp;from&nbsp;'vue';</td><td class="diff_next"></td><td class="diff_header" id="to279_3">3</td><td nowrap="nowrap">import&nbsp;<span class="diff_add">mask</span>Vue&nbsp;from&nbsp;'<span class="diff_add">./mask.</span>vue';</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_2">2</td><td nowrap="nowrap">let&nbsp;Notification&nbsp;=&nbsp;(function&nbsp;(globalOption&nbsp;=&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to279_4">4</td><td nowrap="nowrap">let&nbsp;Notification&nbsp;=&nbsp;(function&nbsp;(<span class="diff_add">Vue,&nbsp;</span>globalOption&nbsp;=&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;msgtime:&nbsp;1.5,&nbsp;</td><td class="diff_next"></td><td class="diff_header" id="to279_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;msgtime:&nbsp;1.5,&nbsp;<span class="diff_add">//msg消失时间</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_4">4</td><td nowrap="nowrap">})&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to279_6">6</td><td nowrap="nowrap">})&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;self.open&nbsp;=&nbsp;function&nbsp;(options)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to279_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;self.open&nbsp;=&nbsp;function&nbsp;(options)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(options.type&nbsp;==&nbsp;2)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to279_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(options.type&nbsp;==&nbsp;2)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;options.content.content&nbsp;=&nbsp;Vue.extend(options.content.content);</td><td class="diff_next"></td><td class="diff_header" id="to279_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;options.content.content&nbsp;=&nbsp;Vue.extend(options.content.content);</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to279_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;id;</td><td class="diff_next"></td><td class="diff_header" id="to279_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;id;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;};</td><td class="diff_next"></td><td class="diff_header" id="to279_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;};</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;self.iframe&nbsp;=&nbsp;function&nbsp;(opt)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to279_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;self.iframe&nbsp;=&nbsp;function&nbsp;(opt)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;let&nbsp;option&nbsp;=&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to279_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;let&nbsp;option&nbsp;=&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type:&nbsp;2,</td><td class="diff_next"></td><td class="diff_header" id="to279_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type:&nbsp;2,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content:&nbsp;opt.content,</td><td class="diff_next"></td><td class="diff_header" id="to279_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content:&nbsp;opt.content,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;area:&nbsp;opt.area</td><td class="diff_next"></td><td class="diff_header" id="to279_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;area:&nbsp;opt.area</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;};</td><td class="diff_next"></td><td class="diff_header" id="to279_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;};</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;self.open(option);</td><td class="diff_next"></td><td class="diff_header" id="to279_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;self.open(option);</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to279_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;self;</td><td class="diff_next"></td><td class="diff_header" id="to279_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;self;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from279_20">20</td><td nowrap="nowrap">});</td><td class="diff_next"></td><td class="diff_header" id="to279_22">22</td><td nowrap="nowrap">});</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

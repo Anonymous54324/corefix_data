@@ -1,0 +1,69 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to149__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy awx/ui/static/lib/ansible/license.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed awx/ui/static/lib/ansible/license.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next"><a href="#difflib_chg_to149__0">f</a></td><td class="diff_header" id="from149_1">1</td><td nowrap="nowrap">angular.module('License',&nbsp;['RestServices',&nbsp;'Utilities',&nbsp;'FormGenerator',&nbsp;'PromptDialog',&nbsp;'LicenseFormDefinition'])</td><td class="diff_next"><a href="#difflib_chg_to149__0">f</a></td><td class="diff_header" id="to149_1">1</td><td nowrap="nowrap">angular.module('License',&nbsp;['RestServices',&nbsp;'Utilities',&nbsp;'FormGenerator',&nbsp;'PromptDialog',&nbsp;'LicenseFormDefinition'])</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;.factory('ViewLicense',&nbsp;['$location',&nbsp;'$rootScope',&nbsp;'GenerateForm',&nbsp;'Rest',&nbsp;'Alert',&nbsp;'GetBasePath',&nbsp;'ProcessErrors',</td><td class="diff_next"></td><td class="diff_header" id="to149_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;.factory('ViewLicense',&nbsp;['$location',&nbsp;'$rootScope',&nbsp;'GenerateForm',&nbsp;'Rest',&nbsp;'Alert',&nbsp;'GetBasePath',&nbsp;'ProcessErrors',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'FormatDate',&nbsp;'Prompt',&nbsp;'Empty',&nbsp;'LicenseForm',</td><td class="diff_next"></td><td class="diff_header" id="to149_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'FormatDate',&nbsp;'Prompt',&nbsp;'Empty',&nbsp;'LicenseForm',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;($location,&nbsp;$rootScope,&nbsp;GenerateForm,&nbsp;Rest,&nbsp;Alert,&nbsp;GetBasePath,&nbsp;ProcessErrors,&nbsp;FormatDate,&nbsp;Prompt,&nbsp;Empty,</td><td class="diff_next"></td><td class="diff_header" id="to149_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;($location,&nbsp;$rootScope,&nbsp;GenerateForm,&nbsp;Rest,&nbsp;Alert,&nbsp;GetBasePath,&nbsp;ProcessErrors,&nbsp;FormatDate,&nbsp;Prompt,&nbsp;Empty,</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to149__0"></td><td class="diff_header" id="from149_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LicenseForm)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to149_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LicenseForm)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;function&nbsp;()&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to149_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;function&nbsp;()&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rest.get()</td><td class="diff_next"></td><td class="diff_header" id="to149_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rest.get()</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.success(function&nbsp;(data)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to149_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.success(function&nbsp;(data)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(scope.license_date)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to149_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(scope.license_date)&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to149__1">n</a></td><td class="diff_header" id="from149_10">10</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(dt.getFullYear()&nbsp;===&nbsp;'1970')&nbsp;{</span></td><td class="diff_next"><a href="#difflib_chg_to149__1">n</a></td><td class="diff_header" id="to149_10">10</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dt&nbsp;=&nbsp;new&nbsp;Date(parseInt(scope.license_date,&nbsp;10)&nbsp;*&nbsp;1000);</span></td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to149__1"></td><td class="diff_header" id="from149_11">11</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scope.time_remaining&nbsp;=&nbsp;scope.time_remaining&nbsp;+&nbsp;'000';</span></td><td class="diff_next"></td><td class="diff_header" id="to149_11">11</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scope.license_date&nbsp;=&nbsp;FormatDate(dt);</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_12">12</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;days&nbsp;=&nbsp;parseInt(scope.time_remaining&nbsp;/&nbsp;86400000,&nbsp;10);</td><td class="diff_next"></td><td class="diff_header" id="to149_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;days&nbsp;=&nbsp;parseInt(scope.time_remaining&nbsp;/&nbsp;86400000,&nbsp;10);</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to149_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})</td><td class="diff_next"></td><td class="diff_header" id="to149_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to149__top">t</a></td><td class="diff_header" id="from149_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.error(function&nbsp;(data,&nbsp;status)&nbsp;{<span class="diff_sub">});</span></td><td class="diff_next"><a href="#difflib_chg_to149__top">t</a></td><td class="diff_header" id="to149_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.error(function&nbsp;(data,&nbsp;status)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to149_16">16</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</td><td class="diff_next"></td><td class="diff_header" id="to149_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;};</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to149_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from149_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;]);</td><td class="diff_next"></td><td class="diff_header" id="to149_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;]);</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

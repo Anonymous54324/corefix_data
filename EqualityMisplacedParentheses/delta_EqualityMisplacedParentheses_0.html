@@ -1,0 +1,56 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to302__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy libs/spaztwit.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed libs/spaztwit.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to302__0"><a href="#difflib_chg_to302__0">f</a></td><td class="diff_header" id="from302_1">1</td><td nowrap="nowrap">var&nbsp;SPAZCORE_SECTION_USER&nbsp;=&nbsp;'user-timeline';</td><td class="diff_next"><a href="#difflib_chg_to302__0">f</a></td><td class="diff_header" id="to302_1">1</td><td nowrap="nowrap">var&nbsp;SPAZCORE_SECTION_USER&nbsp;=&nbsp;'user-timeline';</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from302_2">2</td><td nowrap="nowrap">SpazTwit.prototype._processTimeline&nbsp;=&nbsp;function(section_name,&nbsp;ret_items,&nbsp;opts,&nbsp;processing_opts)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to302_2">2</td><td nowrap="nowrap">SpazTwit.prototype._processTimeline&nbsp;=&nbsp;function(section_name,&nbsp;ret_items,&nbsp;opts,&nbsp;processing_opts)&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to302__top">t</a></td><td class="diff_header" id="from302_3">3</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;if&nbsp;(!section_name&nbsp;===&nbsp;SPAZCORE_SECTION_USER)&nbsp;{}</span></td><td class="diff_next"><a href="#difflib_chg_to302__top">t</a></td><td class="diff_header" id="to302_3">3</td><td nowrap="nowrap"><span class="diff_add">&nbsp;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to302_4">4</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;if&nbsp;(section_name&nbsp;!==&nbsp;SPAZCORE_SECTION_USER)&nbsp;{&nbsp;//&nbsp;the&nbsp;user&nbsp;timeline&nbsp;section&nbsp;isn't&nbsp;persistent</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to302_5">5</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;/*</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to302_6">6</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from302_4">4</td><td nowrap="nowrap">};</td><td class="diff_next"></td><td class="diff_header" id="to302_7">7</td><td nowrap="nowrap">};</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

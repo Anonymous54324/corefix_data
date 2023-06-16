@@ -1,0 +1,66 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to261__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy djAerolith/wordwalls/static/js/wordwalls/reactapp/topbar/prefs_modal.jsx</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed djAerolith/wordwalls/static/js/wordwalls/reactapp/topbar/prefs_modal.jsx</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to261__0"><a href="#difflib_chg_to261__0">f</a></td><td class="diff_header" id="from261_1">1</td><td nowrap="nowrap">import&nbsp;React&nbsp;from&nbsp;'react';</td><td class="diff_next"><a href="#difflib_chg_to261__0">f</a></td><td class="diff_header" id="to261_1">1</td><td nowrap="nowrap">import&nbsp;React&nbsp;from&nbsp;'react';</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_2">2</td><td nowrap="nowrap">class&nbsp;PrefsModal&nbsp;extends&nbsp;React.Component&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to261_2">2</td><td nowrap="nowrap">class&nbsp;PrefsModal&nbsp;extends&nbsp;React.Component&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to261__top">t</a></td><td class="diff_header" id="from261_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;constructor()&nbsp;{</td><td class="diff_next"><a href="#difflib_chg_to261__top">t</a></td><td class="diff_header" id="to261_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;constructor(<span class="diff_add">props</span>)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to261_4">4</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;super(props);</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;this.state&nbsp;=&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to261_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;this.state&nbsp;=&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tilesOn:&nbsp;this.props.displayStyle.tc.on,</td><td class="diff_next"></td><td class="diff_header" id="to261_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tilesOn:&nbsp;this.props.displayStyle.tc.on,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;customTileOrder:&nbsp;this.props.displayStyle.tc.customOrder,</td><td class="diff_next"></td><td class="diff_header" id="to261_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;customTileOrder:&nbsp;this.props.displayStyle.tc.customOrder,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blankCharacter:&nbsp;this.props.displayStyle.tc.blankCharacter,</td><td class="diff_next"></td><td class="diff_header" id="to261_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;blankCharacter:&nbsp;this.props.displayStyle.tc.blankCharacter,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fontSans:&nbsp;this.props.displayStyle.tc.font&nbsp;===&nbsp;'sans',</td><td class="diff_next"></td><td class="diff_header" id="to261_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fontSans:&nbsp;this.props.displayStyle.tc.font&nbsp;===&nbsp;'sans',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showBorders:&nbsp;this.props.displayStyle.bc.showBorders,</td><td class="diff_next"></td><td class="diff_header" id="to261_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showBorders:&nbsp;this.props.displayStyle.bc.showBorders,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showChips:&nbsp;this.props.displayStyle.tc.showChips,</td><td class="diff_next"></td><td class="diff_header" id="to261_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showChips:&nbsp;this.props.displayStyle.tc.showChips,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showBold:&nbsp;this.props.displayStyle.tc.bold,</td><td class="diff_next"></td><td class="diff_header" id="to261_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showBold:&nbsp;this.props.displayStyle.tc.bold,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hideLexiconSymbols:&nbsp;this.props.displayStyle.bc.hideLexiconSymbols,</td><td class="diff_next"></td><td class="diff_header" id="to261_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hideLexiconSymbols:&nbsp;this.props.displayStyle.bc.hideLexiconSymbols,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;saveAllowed:&nbsp;true,</td><td class="diff_next"></td><td class="diff_header" id="to261_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;saveAllowed:&nbsp;true,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;};</td><td class="diff_next"></td><td class="diff_header" id="to261_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;};</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to261_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from261_16">16</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to261_17">17</td><td nowrap="nowrap">}</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

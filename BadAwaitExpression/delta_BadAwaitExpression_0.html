@@ -1,0 +1,80 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to58__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy src/fs/ftp.ts</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed src/fs/ftp.ts</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to58__0"><a href="#difflib_chg_to58__0">f</a></td><td class="diff_header" id="from58_1">1</td><td nowrap="nowrap">interface&nbsp;FTPConnection&nbsp;{</td><td class="diff_next"><a href="#difflib_chg_to58__0">f</a></td><td class="diff_header" id="to58_1">1</td><td nowrap="nowrap">interface&nbsp;FTPConnection&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;cache:&nbsp;FTPConnectionCache;</td><td class="diff_next"></td><td class="diff_header" id="to58_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;cache:&nbsp;FTPConnectionCache;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;client:&nbsp;any;</td><td class="diff_next"></td><td class="diff_header" id="to58_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;client:&nbsp;any;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;followSymLinks:&nbsp;boolean;</td><td class="diff_next"></td><td class="diff_header" id="to58_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;followSymLinks:&nbsp;boolean;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;noop:&nbsp;string;</td><td class="diff_next"></td><td class="diff_header" id="to58_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;noop:&nbsp;string;</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to58__1">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to58__1">n</a></td><td class="diff_header" id="to58_6">6</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;noQueue:&nbsp;boolean;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to58_7">7</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;queue:&nbsp;any;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_6">6</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to58_8">8</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_7">7</td><td nowrap="nowrap">interface&nbsp;FTPConnectionCache&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to58_9">9</td><td nowrap="nowrap">interface&nbsp;FTPConnectionCache&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;stats:&nbsp;any;</td><td class="diff_next"></td><td class="diff_header" id="to58_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;stats:&nbsp;any;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_9">9</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to58_11">11</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_10">10</td><td nowrap="nowrap">interface&nbsp;FTPDirectoryItem&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to58_12">12</td><td nowrap="nowrap">interface&nbsp;FTPDirectoryItem&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;string;</td><td class="diff_next"></td><td class="diff_header" id="to58_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;string;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;size:&nbsp;string;</td><td class="diff_next"></td><td class="diff_header" id="to58_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;size:&nbsp;string;</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to58__1"></td><td class="diff_header" id="from58_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;time:&nbsp;number;</td><td class="diff_next"></td><td class="diff_header" id="to58_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;time:&nbsp;number;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;type:&nbsp;number;</td><td class="diff_next"></td><td class="diff_header" id="to58_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;type:&nbsp;number;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_15">15</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to58_17">17</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_16">16</td><td nowrap="nowrap">export&nbsp;class&nbsp;FTPFileSystem&nbsp;extends&nbsp;vscrw_fs.FileSystemBase&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to58_18">18</td><td nowrap="nowrap">export&nbsp;class&nbsp;FTPFileSystem&nbsp;extends&nbsp;vscrw_fs.FileSystemBase&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;async&nbsp;executeRemoteCommand(execArgs:&nbsp;vscrw.ExecuteRemoteCommandArguments)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to58_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;async&nbsp;executeRemoteCommand(execArgs:&nbsp;vscrw.ExecuteRemoteCommandArguments)&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to58__2">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to58__2">n</a></td><td class="diff_header" id="to58_20">20</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try&nbsp;{</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_sub">try&nbsp;{</span>}&nbsp;finally&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to58_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;finally&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_sub">&nbsp;await</span>&nbsp;tryCloseConnection(CONN);</td><td class="diff_next"></td><td class="diff_header" id="to58_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tryCloseConnection(CONN);</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to58_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to58__2"></td><td class="diff_header" id="from58_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to58_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_22">22</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to58_25">25</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_23">23</td><td nowrap="nowrap">function&nbsp;tryCloseConnection(conn:&nbsp;FTPConnection)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to58_26">26</td><td nowrap="nowrap">function&nbsp;tryCloseConnection(conn:&nbsp;FTPConnection)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;try&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to58_27">27</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;try&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;true;</td><td class="diff_next"></td><td class="diff_header" id="to58_28">28</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;true;</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to58__top">t</a></td><td class="diff_header" id="from58_26">26</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;catch&nbsp;{<span class="diff_sub">}</span></td><td class="diff_next"><a href="#difflib_chg_to58__top">t</a></td><td class="diff_header" id="to58_29">29</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;catch&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to58_30">30</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from58_27">27</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to58_31">31</td><td nowrap="nowrap">}</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to214__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy src/contract/cobuild.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed src/contract/cobuild.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next"><a href="#difflib_chg_to214__0">f</a></td><td class="diff_header" id="from214_1">1</td><td nowrap="nowrap">function&nbsp;loadObj(key){</td><td class="diff_next"><a href="#difflib_chg_to214__0">f</a></td><td class="diff_header" id="to214_1">1</td><td nowrap="nowrap">function&nbsp;loadObj(key){</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to214__0"></td><td class="diff_header" id="from214_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;false;</td><td class="diff_next"></td><td class="diff_header" id="to214_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;false;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_3">3</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to214_3">3</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_4">4</td><td nowrap="nowrap">function&nbsp;prepare(){</td><td class="diff_next"></td><td class="diff_header" id="to214_4">4</td><td nowrap="nowrap">function&nbsp;prepare(){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;cobuilders&nbsp;=&nbsp;loadObj(cobuildersKey);</td><td class="diff_next"></td><td class="diff_header" id="to214_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;cobuilders&nbsp;=&nbsp;loadObj(cobuildersKey);</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_6">6</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to214_6">6</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to214__1">n</a></td><td class="diff_header" id="from214_7">7</td><td nowrap="nowrap"><span class="diff_sub">function&nbsp;apply(role,&nbsp;node){</span></td><td class="diff_next"><a href="#difflib_chg_to214__1">n</a></td><td class="diff_header" id="to214_7">7</td><td nowrap="nowrap"><span class="diff_add">&nbsp;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_8">8</td><td nowrap="nowrap"><span class="diff_add">function&nbsp;setStatus(){</span></td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to214__1"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_9">9</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;states.applied&nbsp;=&nbsp;true;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;Object.keys(cobuilders).forEach(function(key){});</td><td class="diff_next"></td><td class="diff_header" id="to214_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;Object.keys(cobuilders).forEach(function(key){<span class="diff_add">&nbsp;cobuilders[key][pledged]&nbsp;=&nbsp;true;&nbsp;</span>});</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_9">9</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to214_11">11</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_10">10</td><td nowrap="nowrap">function&nbsp;main(input_str){</td><td class="diff_next"></td><td class="diff_header" id="to214_12">12</td><td nowrap="nowrap">function&nbsp;main(input_str){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;prepare();</td><td class="diff_next"></td><td class="diff_header" id="to214_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;prepare();</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to214__2">n</a></td><td class="diff_header" id="from214_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if(input.method&nbsp;===&nbsp;'subscribe'){<span class="diff_sub">}</span></td><td class="diff_next"><a href="#difflib_chg_to214__2">n</a></td><td class="diff_header" id="to214_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if(input.method&nbsp;===&nbsp;'subscribe'){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_15">15</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to214__2"></td><td class="diff_header" id="from214_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'revoke'){<span class="diff_sub">}</span></td><td class="diff_next"></td><td class="diff_header" id="to214_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'revoke'){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_17">17</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'apply'){</td><td class="diff_next"></td><td class="diff_header" id="to214_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'apply'){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;apply(params.role,&nbsp;params.node);</td><td class="diff_next"></td><td class="diff_header" id="to214_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;apply(params.role,&nbsp;params.node);</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to214_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to214__top">t</a></td><td class="diff_header" id="from214_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'append'){<span class="diff_sub">}</span></td><td class="diff_next"><a href="#difflib_chg_to214__top">t</a></td><td class="diff_header" id="to214_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'append'){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_22">22</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'withdraw'){<span class="diff_sub">}</span></td><td class="diff_next"></td><td class="diff_header" id="to214_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'withdraw'){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_24">24</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'transfer'){<span class="diff_sub">}</span></td><td class="diff_next"></td><td class="diff_header" id="to214_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'transfer'){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_26">26</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'accept'){<span class="diff_sub">}</span></td><td class="diff_next"></td><td class="diff_header" id="to214_27">27</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'accept'){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_28">28</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'extract'){<span class="diff_sub">}</span></td><td class="diff_next"></td><td class="diff_header" id="to214_29">29</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'extract'){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_30">30</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'takeback'){<span class="diff_sub">}</span></td><td class="diff_next"></td><td class="diff_header" id="to214_31">31</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'takeback'){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_32">32</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'poll'){<span class="diff_sub">}</span></td><td class="diff_next"></td><td class="diff_header" id="to214_33">33</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'poll'){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_34">34</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'refund'){<span class="diff_sub">}</span></td><td class="diff_next"></td><td class="diff_header" id="to214_35">35</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if(input.method&nbsp;===&nbsp;'refund'){</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to214_36">36</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from214_25">25</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to214_37">37</td><td nowrap="nowrap">}</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

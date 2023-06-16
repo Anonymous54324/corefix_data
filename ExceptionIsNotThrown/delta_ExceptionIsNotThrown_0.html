@@ -1,0 +1,70 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to318__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy node/deps/npm/lib/utils/lifecycle.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed node/deps/npm/lib/utils/lifecycle.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to318__0"><a href="#difflib_chg_to318__0">f</a></td><td class="diff_header" id="from318_1">1</td><td nowrap="nowrap">function&nbsp;runCmd&nbsp;(note,&nbsp;cmd,&nbsp;pkg,&nbsp;env,&nbsp;stage,&nbsp;wd,&nbsp;unsafe,&nbsp;cb)&nbsp;{</td><td class="diff_next"><a href="#difflib_chg_to318__0">f</a></td><td class="diff_header" id="to318_1">1</td><td nowrap="nowrap">function&nbsp;runCmd&nbsp;(note,&nbsp;cmd,&nbsp;pkg,&nbsp;env,&nbsp;stage,&nbsp;wd,&nbsp;unsafe,&nbsp;cb)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from318_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;if&nbsp;(unsafe)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to318_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;if&nbsp;(unsafe)&nbsp;{</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to318__1"><a href="#difflib_chg_to318__1">n</a></td><td class="diff_header" id="from318_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;}&nbsp;else&nbsp;{<span class="diff_sub">}</span></td><td class="diff_next"><a href="#difflib_chg_to318__1">n</a></td><td class="diff_header" id="to318_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;}&nbsp;else&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to318_4">4</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from318_4">4</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to318_5">5</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to318__2"></td><td class="diff_header" id="from318_5">5</td><td nowrap="nowrap">function&nbsp;runCmd_&nbsp;(cmd,&nbsp;pkg,&nbsp;env,&nbsp;wd,&nbsp;stage,&nbsp;unsafe,&nbsp;uid,&nbsp;gid,&nbsp;cb_)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to318_6">6</td><td nowrap="nowrap">function&nbsp;runCmd_&nbsp;(cmd,&nbsp;pkg,&nbsp;env,&nbsp;wd,&nbsp;stage,&nbsp;unsafe,&nbsp;uid,&nbsp;gid,&nbsp;cb_)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from318_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;proc.on('close',&nbsp;function&nbsp;(code,&nbsp;signal)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to318_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;proc.on('close',&nbsp;function&nbsp;(code,&nbsp;signal)&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to318__2">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to318__2">n</a></td><td class="diff_header" id="to318_8">8</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(signal)&nbsp;{</span></td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to318__3"></td><td class="diff_header" id="from318_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_sub">if&nbsp;(signal)&nbsp;{</span>}&nbsp;else&nbsp;if&nbsp;(code)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to318_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;else&nbsp;if&nbsp;(code)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from318_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;er&nbsp;=&nbsp;new&nbsp;Error('Exit&nbsp;status&nbsp;'&nbsp;+&nbsp;code)</td><td class="diff_next"></td><td class="diff_header" id="to318_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;er&nbsp;=&nbsp;new&nbsp;Error('Exit&nbsp;status&nbsp;'&nbsp;+&nbsp;code)</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to318__3">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to318__3">n</a></td><td class="diff_header" id="to318_11">11</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;er.errno&nbsp;=&nbsp;code</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from318_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to318_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to318__4"></td><td class="diff_header" id="from318_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;})</td><td class="diff_next"></td><td class="diff_header" id="to318_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;})</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to318__4">n</a></td><td class="diff_header" id="from318_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;function&nbsp;procError&nbsp;(er)&nbsp;{<span class="diff_sub">}</span></td><td class="diff_next"><a href="#difflib_chg_to318__4">n</a></td><td class="diff_header" id="to318_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;function&nbsp;procError&nbsp;(er)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to318_15">15</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from318_12">12</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to318_16">16</td><td nowrap="nowrap">}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from318_13">13</td><td nowrap="nowrap">function&nbsp;makeEnv&nbsp;(data,&nbsp;prefix,&nbsp;env)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to318_17">17</td><td nowrap="nowrap">function&nbsp;makeEnv&nbsp;(data,&nbsp;prefix,&nbsp;env)&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to318__top">t</a></td><td class="diff_header" id="from318_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;for&nbsp;(i&nbsp;in&nbsp;data)&nbsp;{<span class="diff_sub">}</span></td><td class="diff_next"><a href="#difflib_chg_to318__top">t</a></td><td class="diff_header" id="to318_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;for&nbsp;(i&nbsp;in&nbsp;data)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to318_19">19</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from318_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;env</td><td class="diff_next"></td><td class="diff_header" id="to318_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;return&nbsp;env</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from318_16">16</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to318_21">21</td><td nowrap="nowrap">}</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

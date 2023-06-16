@@ -1,0 +1,74 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to183__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy server.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed server.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next"><a href="#difflib_chg_to183__0">f</a></td><td class="diff_header" id="from183_1">1</td><td nowrap="nowrap">var&nbsp;</td><td class="diff_next"><a href="#difflib_chg_to183__0">f</a></td><td class="diff_header" id="to183_1">1</td><td nowrap="nowrap">var&nbsp;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;express&nbsp;&nbsp;=&nbsp;require('express'),&nbsp;</td><td class="diff_next"></td><td class="diff_header" id="to183_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;express&nbsp;&nbsp;=&nbsp;require('express'),&nbsp;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;pages&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('./routes/pages'),</td><td class="diff_next"></td><td class="diff_header" id="to183_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;pages&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('./routes/pages'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('./routes/api/user'),&nbsp;</td><td class="diff_next"></td><td class="diff_header" id="to183_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('./routes/api/user'),&nbsp;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;http&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('http'),&nbsp;</td><td class="diff_next"></td><td class="diff_header" id="to183_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;http&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('http'),&nbsp;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('path'),&nbsp;</td><td class="diff_next"></td><td class="diff_header" id="to183_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('path'),&nbsp;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;config&nbsp;&nbsp;&nbsp;=&nbsp;require('./infra/config'),&nbsp;</td><td class="diff_next"></td><td class="diff_header" id="to183_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;config&nbsp;&nbsp;&nbsp;=&nbsp;require('./infra/config'),&nbsp;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;gist&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('./routes/api/gist'),</td><td class="diff_next"></td><td class="diff_header" id="to183_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;gist&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('./routes/api/gist'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;constants=&nbsp;require('./infra/constants').constants,</td><td class="diff_next"></td><td class="diff_header" id="to183_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;constants=&nbsp;require('./infra/constants').constants,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;passport&nbsp;=&nbsp;require('passport'),</td><td class="diff_next"></td><td class="diff_header" id="to183_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;passport&nbsp;=&nbsp;require('passport'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;GitHubStrategy&nbsp;=&nbsp;require('passport-github').Strategy,</td><td class="diff_next"></td><td class="diff_header" id="to183_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;GitHubStrategy&nbsp;=&nbsp;require('passport-github').Strategy,</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;User&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('./models/user'),&nbsp;</td><td class="diff_next"></td><td class="diff_header" id="to183_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;User&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('./models/user'),&nbsp;</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;request&nbsp;&nbsp;=&nbsp;require('request'),</td><td class="diff_next"></td><td class="diff_header" id="to183_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;request&nbsp;&nbsp;=&nbsp;require('request'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;service&nbsp;&nbsp;=&nbsp;require('./infra/service'),</td><td class="diff_next"></td><td class="diff_header" id="to183_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;service&nbsp;&nbsp;=&nbsp;require('./infra/service'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;async&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('async'),</td><td class="diff_next"></td><td class="diff_header" id="to183_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;async&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('async'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;chat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('./routes/chat'),</td><td class="diff_next"></td><td class="diff_header" id="to183_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;chat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;require('./routes/chat'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;evernote&nbsp;=&nbsp;require('./routes/api/evernote'),</td><td class="diff_next"></td><td class="diff_header" id="to183_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;evernote&nbsp;=&nbsp;require('./routes/api/evernote'),</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to183__0"></td><td class="diff_header" id="from183_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;connectDomain&nbsp;=&nbsp;require("connect-domain"),</td><td class="diff_next"></td><td class="diff_header" id="to183_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;connectDomain&nbsp;=&nbsp;require("connect-domain"),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;moment&nbsp;&nbsp;&nbsp;=&nbsp;require('moment'),</td><td class="diff_next"></td><td class="diff_header" id="to183_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;moment&nbsp;&nbsp;&nbsp;=&nbsp;require('moment'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;mongoose&nbsp;=&nbsp;require('mongoose'),</td><td class="diff_next"></td><td class="diff_header" id="to183_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;mongoose&nbsp;=&nbsp;require('mongoose'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;MongoStore&nbsp;=&nbsp;require('connect-mongo')(express)</td><td class="diff_next"></td><td class="diff_header" id="to183_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;MongoStore&nbsp;=&nbsp;require('connect-mongo')(express)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_22">22</td><td nowrap="nowrap">app.use(express.session({</td><td class="diff_next"></td><td class="diff_header" id="to183_22">22</td><td nowrap="nowrap">app.use(express.session({</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to183__top">t</a></td><td class="diff_header" id="from183_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;cookie:&nbsp;{&nbsp;maxAge&nbsp;:&nbsp;1000&nbsp;*&nbsp;60&nbsp;*&nbsp;60&nbsp;*&nbsp;24&nbsp;*&nbsp;30<span class="diff_sub">,&nbsp;httpOnly:&nbsp;false</span>&nbsp;},</td><td class="diff_next"><a href="#difflib_chg_to183__top">t</a></td><td class="diff_header" id="to183_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;cookie:&nbsp;{&nbsp;maxAge&nbsp;:&nbsp;1000&nbsp;*&nbsp;60&nbsp;*&nbsp;60&nbsp;*&nbsp;24&nbsp;*&nbsp;30&nbsp;},</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;store:&nbsp;new&nbsp;MongoStore({&nbsp;url:&nbsp;mongoUrl&nbsp;})</td><td class="diff_next"></td><td class="diff_header" id="to183_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;store:&nbsp;<span class="diff_add">mongostore&nbsp;&nbsp;//</span>new&nbsp;MongoStore({&nbsp;url:&nbsp;mongoUrl&nbsp;})</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from183_25">25</td><td nowrap="nowrap">}));</td><td class="diff_next"></td><td class="diff_header" id="to183_25">25</td><td nowrap="nowrap">}));</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

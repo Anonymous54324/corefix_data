@@ -1,0 +1,78 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to292__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy routes/index.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed routes/index.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to292__0"><a href="#difflib_chg_to292__0">f</a></td><td class="diff_header" id="from292_1">1</td><td nowrap="nowrap">var&nbsp;passport&nbsp;=&nbsp;require("passport");</td><td class="diff_next"><a href="#difflib_chg_to292__0">f</a></td><td class="diff_header" id="to292_1">1</td><td nowrap="nowrap">var&nbsp;passport&nbsp;=&nbsp;require("passport");</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_2">2</td><td nowrap="nowrap">var&nbsp;User&nbsp;=&nbsp;require("../models/user");</td><td class="diff_next"></td><td class="diff_header" id="to292_2">2</td><td nowrap="nowrap">var&nbsp;User&nbsp;=&nbsp;require("../models/user");</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to292__1">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to292__1">n</a></td><td class="diff_header" id="to292_3">3</td><td nowrap="nowrap"><span class="diff_add">const&nbsp;rateLimit&nbsp;=&nbsp;require("express-rate-limit");</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to292_4">4</td><td nowrap="nowrap"><span class="diff_add">const&nbsp;registerLimiter&nbsp;=&nbsp;rateLimit({</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to292_5">5</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;windowMs:&nbsp;60&nbsp;*&nbsp;60&nbsp;*&nbsp;1000,&nbsp;//&nbsp;60&nbsp;minutes</span></td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to292__1"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to292_6">6</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;max:&nbsp;3</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to292_7">7</td><td nowrap="nowrap"><span class="diff_add">});</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to292_8">8</td><td nowrap="nowrap"><span class="diff_add">&nbsp;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_3">3</td><td nowrap="nowrap">router.post("/",&nbsp;checkIpBan,&nbsp;sanitiseUsername,function&nbsp;(req,&nbsp;res)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to292_9">9</td><td nowrap="nowrap">router.post("/",&nbsp;<span class="diff_add">registerLimiter,&nbsp;</span>checkIpBan,&nbsp;sanitiseUsername,<span class="diff_add">/*&nbsp;usernameToLowerCase,&nbsp;*/</span>function&nbsp;(req,&nbsp;res)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;if&nbsp;(process.env.MY_PLATFORM&nbsp;===&nbsp;"local"&nbsp;||&nbsp;process.env.MY_PLATFORM&nbsp;===&nbsp;"staging")&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to292_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;if&nbsp;(process.env.MY_PLATFORM&nbsp;===&nbsp;"local"&nbsp;||&nbsp;process.env.MY_PLATFORM&nbsp;===&nbsp;"staging")&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to292__2">n</a></td><td class="diff_header" id="from292_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(req.body.username.indexOf("&nbsp;")&nbsp;!==&nbsp;-1)&nbsp;{<span class="diff_sub">}</span></td><td class="diff_next"><a href="#difflib_chg_to292__2">n</a></td><td class="diff_header" id="to292_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(req.body.username.indexOf("&nbsp;")&nbsp;!==&nbsp;-1)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to292_12">12</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if&nbsp;(req.body.username.length&nbsp;&gt;&nbsp;25)&nbsp;{<span class="diff_sub">}</span></td><td class="diff_next"></td><td class="diff_header" id="to292_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if&nbsp;(req.body.username.length&nbsp;&gt;&nbsp;25)&nbsp;{</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to292__2"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to292_14">14</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if&nbsp;(usernameContainsBadCharacter(req.body.username)&nbsp;==&nbsp;true)&nbsp;{<span class="diff_sub">}</span></td><td class="diff_next"></td><td class="diff_header" id="to292_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;if&nbsp;(usernameContainsBadCharacter(req.body.username)&nbsp;==&nbsp;true)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to292_16">16</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to292_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User.register(newUser,&nbsp;req.body.password,&nbsp;function&nbsp;(err,&nbsp;user)&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to292_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User.register(newUser,&nbsp;req.body.password,&nbsp;function&nbsp;(err,&nbsp;user)&nbsp;{</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to292__3">n</a></td><td class="diff_header" id="from292_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(err)&nbsp;{<span class="diff_sub">}&nbsp;else&nbsp;{</span></td><td class="diff_next"><a href="#difflib_chg_to292__3">n</a></td><td class="diff_header" id="to292_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(err)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to292_20">20</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;else&nbsp;{</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;passport.authenticate("local")(req,&nbsp;res,&nbsp;function&nbsp;()&nbsp;{<span class="diff_sub">});</span></td><td class="diff_next"></td><td class="diff_header" id="to292_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;passport.authenticate("local")(req,&nbsp;res,&nbsp;function&nbsp;()&nbsp;{</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to292__3"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to292_22">22</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to292_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</td><td class="diff_next"></td><td class="diff_header" id="to292_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to292_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to292_26">26</td><td nowrap="nowrap">&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to292__top">t</a></td><td class="diff_header" id="from292_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;else&nbsp;{<span class="diff_sub">}</span></td><td class="diff_next"><a href="#difflib_chg_to292__top">t</a></td><td class="diff_header" id="to292_27">27</td><td nowrap="nowrap">&nbsp;&nbsp;else&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to292_28">28</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;}</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from292_17">17</td><td nowrap="nowrap">});</td><td class="diff_next"></td><td class="diff_header" id="to292_29">29</td><td nowrap="nowrap">});</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

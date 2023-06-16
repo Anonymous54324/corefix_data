@@ -1,0 +1,61 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to311__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Buggy modules/dashingsubmit/server/dashingsubmit.js</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">Code Reduced Fixed modules/dashingsubmit/server/dashingsubmit.js</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to311__0"><a href="#difflib_chg_to311__0">f</a></td><td class="diff_header" id="from311_1">1</td><td nowrap="nowrap">var&nbsp;submit_count&nbsp;=&nbsp;function(state,&nbsp;count)&nbsp;{</td><td class="diff_next"><a href="#difflib_chg_to311__0">f</a></td><td class="diff_header" id="to311_1">1</td><td nowrap="nowrap">var&nbsp;submit_count&nbsp;=&nbsp;function(state,&nbsp;count)&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from311_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;var&nbsp;options&nbsp;=&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to311_2">2</td><td nowrap="nowrap">&nbsp;&nbsp;var&nbsp;options&nbsp;=&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from311_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;host:&nbsp;'monitoring.bashton.net',</td><td class="diff_next"></td><td class="diff_header" id="to311_3">3</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;host:&nbsp;'monitoring.bashton.net',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from311_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;port:&nbsp;3090,</td><td class="diff_next"></td><td class="diff_header" id="to311_4">4</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;port:&nbsp;3090,</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to311__top">t</a></td><td class="diff_header" id="from311_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;path:&nbsp;'/widgets/tickets'&nbsp;+&nbsp;state.replace('&nbsp;',&nbsp;'_'),</td><td class="diff_next"><a href="#difflib_chg_to311__top">t</a></td><td class="diff_header" id="to311_5">5</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;path:&nbsp;'/widgets/tickets'&nbsp;+&nbsp;state.replace(<span class="diff_add">new&nbsp;RegExp(</span>'&nbsp;',<span class="diff_add">&nbsp;'g'),</span>&nbsp;'_'),</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from311_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;method:&nbsp;'POST',</td><td class="diff_next"></td><td class="diff_header" id="to311_6">6</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;method:&nbsp;'POST',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from311_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;headers:&nbsp;{</td><td class="diff_next"></td><td class="diff_header" id="to311_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;headers:&nbsp;{</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from311_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Content-Type':&nbsp;'application/x-www-form-urlencoded',</td><td class="diff_next"></td><td class="diff_header" id="to311_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Content-Type':&nbsp;'application/x-www-form-urlencoded',</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from311_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Content-Length':&nbsp;post_data.length</td><td class="diff_next"></td><td class="diff_header" id="to311_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Content-Length':&nbsp;post_data.length</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from311_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td><td class="diff_next"></td><td class="diff_header" id="to311_10">10</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from311_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;};</td><td class="diff_next"></td><td class="diff_header" id="to311_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;};</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from311_12">12</td><td nowrap="nowrap">};</td><td class="diff_next"></td><td class="diff_header" id="to311_12">12</td><td nowrap="nowrap">};</td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>
