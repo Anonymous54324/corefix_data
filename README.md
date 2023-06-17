@@ -1,6 +1,6 @@
 # CoReFix Data Samples
 
-This repository contains samples from the tranining data of CoReFix paper. 
+This repository contains samples from the data of CoReFix paper. 
 The samples are code reduced versions of the files.
 In case you want to see the full version of the files, we also included github urls. Each rule folder has a README and it contains the two url links per delta and the filename in the repo. 
 File url links should take you directly to the file and also highlight the line where the rule was reported by static analyzer.
