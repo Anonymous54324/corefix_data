@@ -1,3 +1,8 @@
+Diff: [delta_CompareTypeofToString_0.html](./delta_CompareTypeofToString_0.html)
+
+Diff: [delta_CompareTypeofToString_1.html](./delta_CompareTypeofToString_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/mozilla/shumway/commit/8a36fe430b9dceb1a0b286088f2327563d8db8f1/#diff-4c8cc99ef0534ec391d4731c43530afe8fe092efcec9c190ec9eca37a570eb82L503)
 
 delta_0 [commit_url0](https://www.github.com/mozilla/shumway/commit/8a36fe430b9dceb1a0b286088f2327563d8db8f1)

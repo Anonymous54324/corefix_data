@@ -1,3 +1,8 @@
+Diff: [delta_OR_0.html](./delta_OR_0.html)
+
+Diff: [delta_OR_1.html](./delta_OR_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/dai-shi/social-cms-backend/commit/d994642d8df010d5a7ccfc6c792d59680db3fce6/#diff-c3e3cf741f47f4530ca839627d1049c4f8c8d1539f6d1190dd9b5649f81f2b2bL120)
 
 delta_0 [commit_url0](https://www.github.com/dai-shi/social-cms-backend/commit/d994642d8df010d5a7ccfc6c792d59680db3fce6)

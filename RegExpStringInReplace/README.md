@@ -1,3 +1,8 @@
+Diff: [delta_RegExpStringInReplace_1.html](./delta_RegExpStringInReplace_1.html)
+
+Diff: [delta_RegExpStringInReplace_0.html](./delta_RegExpStringInReplace_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/davesnx/reason-console-formatter/commit/c58373b8d4c87843b67314736ba7644a5bf9c279/#diff-7d111b05fe05c50beb729d1e99a36010fbda8c89b57a1a26ac3e7b0778a0ed53L6)
 
 delta_0 [commit_url0](https://www.github.com/davesnx/reason-console-formatter/commit/c58373b8d4c87843b67314736ba7644a5bf9c279)

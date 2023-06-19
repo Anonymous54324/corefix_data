@@ -1,3 +1,8 @@
+Diff: [delta_ReactVoidHtmlElementWithChildren_0.html](./delta_ReactVoidHtmlElementWithChildren_0.html)
+
+Diff: [delta_ReactVoidHtmlElementWithChildren_1.html](./delta_ReactVoidHtmlElementWithChildren_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/AvanthikaMeenakshi/ReactNodeNew/commit/5194bfea7dc62a71d75620c87541cb21a929dc73/#diff-e4d02bd3920203e3ee57e8c5626c1ad7f2cf3506cc6ed996e138cd9bcf0a9cb4L19)
 
 delta_0 [commit_url0](https://www.github.com/AvanthikaMeenakshi/ReactNodeNew/commit/5194bfea7dc62a71d75620c87541cb21a929dc73)

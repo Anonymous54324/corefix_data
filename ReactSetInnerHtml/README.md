@@ -1,3 +1,8 @@
+Diff: [delta_ReactSetInnerHtml_1.html](./delta_ReactSetInnerHtml_1.html)
+
+Diff: [delta_ReactSetInnerHtml_0.html](./delta_ReactSetInnerHtml_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/atomiks/tippyjs/commit/9c86d3bbea820f99a8a6a022b6808faab87be9a4/#diff-3b7c011cbd4a3d06f712224429d777be5a5e5d416b478ef44c094e2bf5204af7L179)
 
 delta_0 [commit_url0](https://www.github.com/atomiks/tippyjs/commit/9c86d3bbea820f99a8a6a022b6808faab87be9a4)

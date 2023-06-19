@@ -1,3 +1,8 @@
+Diff: [delta_UseGetFullYear_0.html](./delta_UseGetFullYear_0.html)
+
+Diff: [delta_UseGetFullYear_1.html](./delta_UseGetFullYear_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/JaggedCloud/JaggedCloud/commit/7fcfd42f1ba9cc45472f04c8b84a1dd9eae5389b/#diff-61965994b9f2f1630c31468f01a178d1e85848d7b9b738d07dd034347a9b2f79L20)
 
 delta_0 [commit_url0](https://www.github.com/JaggedCloud/JaggedCloud/commit/7fcfd42f1ba9cc45472f04c8b84a1dd9eae5389b)

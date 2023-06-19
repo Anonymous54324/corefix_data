@@ -1,3 +1,8 @@
+Diff: [delta_ReactInClass_1.html](./delta_ReactInClass_1.html)
+
+Diff: [delta_ReactInClass_0.html](./delta_ReactInClass_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/relax/relax/commit/0390c6cf91de1f5e28b126d992c05e810b63621a/#diff-8dee101f6129aec85f87895d7cd6f613b98c83abd8f33725618529173647c3bfL14)
 
 delta_0 [commit_url0](https://www.github.com/relax/relax/commit/0390c6cf91de1f5e28b126d992c05e810b63621a)

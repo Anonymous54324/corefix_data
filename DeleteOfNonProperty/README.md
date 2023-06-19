@@ -1,3 +1,8 @@
+Diff: [delta_DeleteOfNonProperty_1.html](./delta_DeleteOfNonProperty_1.html)
+
+Diff: [delta_DeleteOfNonProperty_0.html](./delta_DeleteOfNonProperty_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/pimcore/pimcore/commit/216a1b0cf1fa7ccef541b3e778f5fe5ffd096ad2/#diff-c3b7f74c10e1ee306275dfaff676e287d1ded41d85c6535d40e7843cb8ed0765L1176)
 
 delta_0 [commit_url0](https://www.github.com/pimcore/pimcore/commit/216a1b0cf1fa7ccef541b3e778f5fe5ffd096ad2)

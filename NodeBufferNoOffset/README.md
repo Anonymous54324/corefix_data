@@ -1,3 +1,8 @@
+Diff: [delta_NodeBufferNoOffset_1.html](./delta_NodeBufferNoOffset_1.html)
+
+Diff: [delta_NodeBufferNoOffset_0.html](./delta_NodeBufferNoOffset_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/handshake-org/hsd/commit/28cd43045dd1e8bc6b3442847ca406b7207d9ea8/#diff-fbdf9a52d91ce380e1ed2d529ae91cbbf0434e030bb38005e62d30759257055dL53)
 
 delta_0 [commit_url0](https://www.github.com/handshake-org/hsd/commit/28cd43045dd1e8bc6b3442847ca406b7207d9ea8)

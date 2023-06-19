@@ -1,3 +1,8 @@
+Diff: [delta_MemberExpressionTypo_0.html](./delta_MemberExpressionTypo_0.html)
+
+Diff: [delta_MemberExpressionTypo_1.html](./delta_MemberExpressionTypo_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/LRAbbade/PBFT/commit/4b189f0d40cd6e5bd55ffb41fd5ec997b88a5dc9/#diff-71628b724bf48375c81872f63e93dba9102c7bc995fcbca05ca9bd624abead18L249)
 
 delta_0 [commit_url0](https://www.github.com/LRAbbade/PBFT/commit/4b189f0d40cd6e5bd55ffb41fd5ec997b88a5dc9)

@@ -1,3 +1,8 @@
+Diff: [delta_ReplaceWithSameString_0.html](./delta_ReplaceWithSameString_0.html)
+
+Diff: [delta_ReplaceWithSameString_1.html](./delta_ReplaceWithSameString_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/tapmodo/Jcrop/commit/4ef885500482ad1aa810d595258cf346965c7099/#diff-4f9485dcbd0d5087fb935e3e78377d776dfd1a1e774bde1206aa04105a6bae6fL24)
 
 delta_0 [commit_url0](https://www.github.com/tapmodo/Jcrop/commit/4ef885500482ad1aa810d595258cf346965c7099)

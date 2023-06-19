@@ -1,3 +1,8 @@
+Diff: [delta_ReactWrongStyleType_0.html](./delta_ReactWrongStyleType_0.html)
+
+Diff: [delta_ReactWrongStyleType_1.html](./delta_ReactWrongStyleType_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/nunux-keeper/keeper-web-app/commit/1d4aba1ddba31a195dbcdc33fe85d2251eae78a2/#diff-63c29d5ad14f0ebe46ca5760a69fd52db76e1b9aa0ba9450759c7a23fb90ca93L5)
 
 delta_0 [commit_url0](https://www.github.com/nunux-keeper/keeper-web-app/commit/1d4aba1ddba31a195dbcdc33fe85d2251eae78a2)

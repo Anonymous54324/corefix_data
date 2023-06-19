@@ -1,3 +1,8 @@
+Diff: [delta_FormatString_0.html](./delta_FormatString_0.html)
+
+Diff: [delta_FormatString_1.html](./delta_FormatString_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/rezendi/ykarma/commit/83f748d4436c355d042ea8c63e59e7d2d697bd71/#diff-e6a788fa79fad5670fb3fc444ae4f7396f822e44894ac28dd9da8fe4a539d074L372)
 
 delta_0 [commit_url0](https://www.github.com/rezendi/ykarma/commit/83f748d4436c355d042ea8c63e59e7d2d697bd71)

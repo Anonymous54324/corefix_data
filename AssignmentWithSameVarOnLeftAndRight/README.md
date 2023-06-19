@@ -1,3 +1,8 @@
+Diff: [delta_AssignmentWithSameVarOnLeftAndRight_0.html](./delta_AssignmentWithSameVarOnLeftAndRight_0.html)
+
+Diff: [delta_AssignmentWithSameVarOnLeftAndRight_1.html](./delta_AssignmentWithSameVarOnLeftAndRight_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/JeremyHeleine/Photo-Sphere-Viewer/commit/80b0553611c2e699d361fa187aeafa150e304d90/#diff-5d7921555ea51709f1792db49413ed8d1fb541e83ab17a189f00bcf1f5a5b24fL420)
 
 delta_0 [commit_url0](https://www.github.com/JeremyHeleine/Photo-Sphere-Viewer/commit/80b0553611c2e699d361fa187aeafa150e304d90)

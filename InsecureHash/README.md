@@ -1,3 +1,8 @@
+Diff: [delta_InsecureHash_0.html](./delta_InsecureHash_0.html)
+
+Diff: [delta_InsecureHash_1.html](./delta_InsecureHash_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/improvein/personal-cryptofolio/commit/a499e7335d43f951d37d00d675ebbb63d8900d49/#diff-0e65b1b6cb2d9156f07298b7a0185d47062c271899cc7174a67ff26398ce7217L309)
 
 delta_0 [commit_url0](https://www.github.com/improvein/personal-cryptofolio/commit/a499e7335d43f951d37d00d675ebbb63d8900d49)

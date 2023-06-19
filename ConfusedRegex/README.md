@@ -1,3 +1,8 @@
+Diff: [delta_ConfusedRegex_0.html](./delta_ConfusedRegex_0.html)
+
+Diff: [delta_ConfusedRegex_1.html](./delta_ConfusedRegex_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/BenoitZugmeyer/eslint-plugin-html/commit/3ebdbc95a1ffb8b24a91969bc5e8e60827847060/#diff-fc6bfab85f81ff54595db9d982b1e50746d94fdf832c396c9f8e5dbd3869fa75L76)
 
 delta_0 [commit_url0](https://www.github.com/BenoitZugmeyer/eslint-plugin-html/commit/3ebdbc95a1ffb8b24a91969bc5e8e60827847060)

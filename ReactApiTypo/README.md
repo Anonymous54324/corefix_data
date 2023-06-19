@@ -1,3 +1,8 @@
+Diff: [delta_ReactApiTypo_0.html](./delta_ReactApiTypo_0.html)
+
+Diff: [delta_ReactApiTypo_1.html](./delta_ReactApiTypo_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/react-bootstrap/react-bootstrap/commit/25a716f48cda4c4c47fde069b00c1f8855bec070/#diff-50f2bc12e2f54fbfdbdbb1d665f122ba0a0c4e87eee5b1a499a8f4e7039e0ca1L22)
 
 delta_0 [commit_url0](https://www.github.com/react-bootstrap/react-bootstrap/commit/25a716f48cda4c4c47fde069b00c1f8855bec070)

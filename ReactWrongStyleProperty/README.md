@@ -1,3 +1,8 @@
+Diff: [delta_ReactWrongStyleProperty_0.html](./delta_ReactWrongStyleProperty_0.html)
+
+Diff: [delta_ReactWrongStyleProperty_1.html](./delta_ReactWrongStyleProperty_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/sghall/react-compound-slider/commit/bd84b1e1671891657a08c118cd3417dd53af14ff/#diff-43c4321fa4185155144fe0269e2f913d7a4ca6f2ffe6c614b917e1f58c527595L10)
 
 delta_0 [commit_url0](https://www.github.com/sghall/react-compound-slider/commit/bd84b1e1671891657a08c118cd3417dd53af14ff)

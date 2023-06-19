@@ -1,3 +1,8 @@
+Diff: [delta_ReactArrayLengthLogicalAnd_0.html](./delta_ReactArrayLengthLogicalAnd_0.html)
+
+Diff: [delta_ReactArrayLengthLogicalAnd_1.html](./delta_ReactArrayLengthLogicalAnd_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/polkadot-js/apps/commit/024a55e3d0240b638b31b048083152f6fd77f966/#diff-bd0b03c2c7e73f8b7b23c95173eb4baa3d6e050f4a12c273dc8df642e875b1f5L136)
 
 delta_0 [commit_url0](https://www.github.com/polkadot-js/apps/commit/024a55e3d0240b638b31b048083152f6fd77f966)

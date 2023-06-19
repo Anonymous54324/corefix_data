@@ -1,3 +1,8 @@
+Diff: [delta_VueReservedProperty_0.html](./delta_VueReservedProperty_0.html)
+
+Diff: [delta_VueReservedProperty_1.html](./delta_VueReservedProperty_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/kazupon/vue-i18n/commit/f6517bc03badb53df38674446391ca0fd7cf85f2/#diff-07945f29c63b1756444aaef33a0ff4e0d0fafc8559e5eabed26787133d29fcaeL208)
 
 delta_0 [commit_url0](https://www.github.com/kazupon/vue-i18n/commit/f6517bc03badb53df38674446391ca0fd7cf85f2)

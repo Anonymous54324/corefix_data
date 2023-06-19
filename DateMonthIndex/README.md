@@ -1,3 +1,8 @@
+Diff: [delta_DateMonthIndex_1.html](./delta_DateMonthIndex_1.html)
+
+Diff: [delta_DateMonthIndex_0.html](./delta_DateMonthIndex_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/ministryofjustice/apvs-external-web/commit/316fe27c6f5eec22415a8ff1fcd67b95d8df3d21/#diff-1038cdd1522001dd476168fd4e6937d196f6a5d2a7579431a2025c28cbefc62fL99)
 
 delta_0 [commit_url0](https://www.github.com/ministryofjustice/apvs-external-web/commit/316fe27c6f5eec22415a8ff1fcd67b95d8df3d21)

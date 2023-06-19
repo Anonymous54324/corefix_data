@@ -1,3 +1,8 @@
+Diff: [delta_ReactEventHandlerThis_0.html](./delta_ReactEventHandlerThis_0.html)
+
+Diff: [delta_ReactEventHandlerThis_1.html](./delta_ReactEventHandlerThis_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/jordanlaforest/drawgame/commit/2090bf07e5accec14571faf31d1fd63f30d48b27/#diff-d5b09a0b7cec65438536f08374d713d30ce43e3952aad4e56475861f2621c27bL30)
 
 delta_0 [commit_url0](https://www.github.com/jordanlaforest/drawgame/commit/2090bf07e5accec14571faf31d1fd63f30d48b27)

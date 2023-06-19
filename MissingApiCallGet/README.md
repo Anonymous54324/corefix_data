@@ -1,3 +1,8 @@
+Diff: [delta_MissingApiCallGet_0.html](./delta_MissingApiCallGet_0.html)
+
+Diff: [delta_MissingApiCallGet_1.html](./delta_MissingApiCallGet_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/Wildhoney/Switzerland/commit/51c1d6e5430c6b7ed1a82ca6d6430182c0b03121/#diff-315d88f01626174505ef136e27664fcfe33738e39ae07b1e55c4806816ec6545L4)
 
 delta_0 [commit_url0](https://www.github.com/Wildhoney/Switzerland/commit/51c1d6e5430c6b7ed1a82ca6d6430182c0b03121)

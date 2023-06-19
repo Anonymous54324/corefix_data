@@ -1,3 +1,8 @@
+Diff: [delta_VueMissingCleanup_0.html](./delta_VueMissingCleanup_0.html)
+
+Diff: [delta_VueMissingCleanup_1.html](./delta_VueMissingCleanup_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/rlafranchi/pong/commit/d077fa5839c9d00364cd95edf80c94319ca8c833/#diff-d0e0d1fbe8673a8bfac633377e826b6bfbc3a4cc75cfa9ec1cc4d8a7e0d8c5d9L38)
 
 delta_0 [commit_url0](https://www.github.com/rlafranchi/pong/commit/d077fa5839c9d00364cd95edf80c94319ca8c833)

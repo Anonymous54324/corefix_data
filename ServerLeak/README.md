@@ -1,3 +1,8 @@
+Diff: [delta_ServerLeak_0.html](./delta_ServerLeak_0.html)
+
+Diff: [delta_ServerLeak_1.html](./delta_ServerLeak_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/diogotorres97/express-template/commit/c28e119dd67569f542b3f3f9aa25059a1061fe70/#diff-640772b9ea970c1ea2e03eb18b515bf5ac1e101bfd4f92477124a739a9389a91L11)
 
 delta_0 [commit_url0](https://www.github.com/diogotorres97/express-template/commit/c28e119dd67569f542b3f3f9aa25059a1061fe70)

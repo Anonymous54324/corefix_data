@@ -1,3 +1,8 @@
+Diff: [delta_WrongCleanupUsed_1.html](./delta_WrongCleanupUsed_1.html)
+
+Diff: [delta_WrongCleanupUsed_0.html](./delta_WrongCleanupUsed_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/hackoregon/civic/commit/2ec50a365b7b8eb901aceceab3419131afc90669/#diff-d3e2455037819b5e61ee217fb0b73892d505572c79af1229296446cdbbfe3335L58)
 
 delta_0 [commit_url0](https://www.github.com/hackoregon/civic/commit/2ec50a365b7b8eb901aceceab3419131afc90669)

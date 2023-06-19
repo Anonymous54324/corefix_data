@@ -1,3 +1,8 @@
+Diff: [delta_HardcodedSecret_1.html](./delta_HardcodedSecret_1.html)
+
+Diff: [delta_HardcodedSecret_0.html](./delta_HardcodedSecret_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/tariqulislam/express-starter-kit/commit/1e4dc402cfd5b28676cc9b54b91b72e5fa7a0ce7/#diff-9510a696b96ec855b862f0e54666e2c40f4a4c284d8e2e873530234197654f8eL93)
 
 delta_0 [commit_url0](https://www.github.com/tariqulislam/express-starter-kit/commit/1e4dc402cfd5b28676cc9b54b91b72e5fa7a0ce7)

@@ -1,3 +1,8 @@
+Diff: [delta_CommandInjection_0.html](./delta_CommandInjection_0.html)
+
+Diff: [delta_CommandInjection_1.html](./delta_CommandInjection_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/strapi/strapi-examples/commit/352bb35b5e2fda7bdea230711995e71e8db1b789/#diff-421e705fbd4a624062e8f2e9902da8f2ac40c3722e1c51e8c5e621fbe4fa7cfdL57)
 
 delta_0 [commit_url0](https://www.github.com/strapi/strapi-examples/commit/352bb35b5e2fda7bdea230711995e71e8db1b789)

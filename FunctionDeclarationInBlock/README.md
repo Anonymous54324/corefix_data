@@ -1,3 +1,8 @@
+Diff: [delta_FunctionDeclarationInBlock_1.html](./delta_FunctionDeclarationInBlock_1.html)
+
+Diff: [delta_FunctionDeclarationInBlock_0.html](./delta_FunctionDeclarationInBlock_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/jagenjo/litescene.js/commit/6d709a4f0892a04d6769f6ab1469527628cd1e41/#diff-65ac4d8bdf8bf7c26f9eca1034fd35970939d1843ee57f98354bdda7795f3aeaL55)
 
 delta_0 [commit_url0](https://www.github.com/jagenjo/litescene.js/commit/6d709a4f0892a04d6769f6ab1469527628cd1e41)

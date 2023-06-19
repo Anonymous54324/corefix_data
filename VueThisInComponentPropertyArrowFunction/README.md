@@ -1,3 +1,8 @@
+Diff: [delta_VueThisInComponentPropertyArrowFunction_0.html](./delta_VueThisInComponentPropertyArrowFunction_0.html)
+
+Diff: [delta_VueThisInComponentPropertyArrowFunction_1.html](./delta_VueThisInComponentPropertyArrowFunction_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/ecomfe/veui/commit/ad134c21787e007ef6ca27c816212512643101f3/#diff-c2b2831bc58acca2449c3b136dc243d0b3f0d48e6e3e4f98cf5916b1952d6ed6L25)
 
 delta_0 [commit_url0](https://www.github.com/ecomfe/veui/commit/ad134c21787e007ef6ca27c816212512643101f3)

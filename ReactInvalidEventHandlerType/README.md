@@ -1,3 +1,8 @@
+Diff: [delta_ReactInvalidEventHandlerType_0.html](./delta_ReactInvalidEventHandlerType_0.html)
+
+Diff: [delta_ReactInvalidEventHandlerType_1.html](./delta_ReactInvalidEventHandlerType_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/edshadi/react-form-for-object/commit/883c76f34586a4a28407140135ba6a4f55b7a518/#diff-f88cf469992623902c0f1f6a8603fadc1d7401dfd175c683f62b9a671389a277L52)
 
 delta_0 [commit_url0](https://www.github.com/edshadi/react-form-for-object/commit/883c76f34586a4a28407140135ba6a4f55b7a518)

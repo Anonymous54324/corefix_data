@@ -1,3 +1,8 @@
+Diff: [delta_CodeInjection_0.html](./delta_CodeInjection_0.html)
+
+Diff: [delta_CodeInjection_1.html](./delta_CodeInjection_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/weixiyen/jquery-filedrop/commit/187dd3e496c1a1fc806f1a7b3e4228a6fedca9de/#diff-e4b97b20f38541bcc00a4c9040c505fcdcd79d2feba102d96a80fe414114e904L222)
 
 delta_0 [commit_url0](https://www.github.com/weixiyen/jquery-filedrop/commit/187dd3e496c1a1fc806f1a7b3e4228a6fedca9de)

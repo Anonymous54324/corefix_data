@@ -1,3 +1,8 @@
+Diff: [delta_CollectionUpdatedButNeverQueried_0.html](./delta_CollectionUpdatedButNeverQueried_0.html)
+
+Diff: [delta_CollectionUpdatedButNeverQueried_1.html](./delta_CollectionUpdatedButNeverQueried_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/mcollina/ascoltatori/commit/abab0cae038fac0af7f4de467fde27719515150f/#diff-87ef2984aa97735dab11f2adff3edfad3dd6962f42aa61a9eb35912bb343952eL8)
 
 delta_0 [commit_url0](https://www.github.com/mcollina/ascoltatori/commit/abab0cae038fac0af7f4de467fde27719515150f)

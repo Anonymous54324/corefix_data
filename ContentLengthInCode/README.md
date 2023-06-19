@@ -1,3 +1,8 @@
+Diff: [delta_ContentLengthInCode_0.html](./delta_ContentLengthInCode_0.html)
+
+Diff: [delta_ContentLengthInCode_1.html](./delta_ContentLengthInCode_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/eclipse/orion.client/commit/bfbda15a6ed279d9336759b328c3c13482ba372d/#diff-f7a5ca620b73f3918095a026d04e5b6befc4c647df6dc882cbad5f9d096909a1L150)
 
 delta_0 [commit_url0](https://www.github.com/eclipse/orion.client/commit/bfbda15a6ed279d9336759b328c3c13482ba372d)

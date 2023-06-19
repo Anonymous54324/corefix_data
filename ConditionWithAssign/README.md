@@ -1,3 +1,8 @@
+Diff: [delta_ConditionWithAssign_0.html](./delta_ConditionWithAssign_0.html)
+
+Diff: [delta_ConditionWithAssign_1.html](./delta_ConditionWithAssign_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/lvivski/boss/commit/49069bb135424c67b7fc16c285aa2875a5626981/#diff-558be949233bd318d4b80f01ce1275eaeef18293b341ebe36a1eac5e583c454cL14)
 
 delta_0 [commit_url0](https://www.github.com/lvivski/boss/commit/49069bb135424c67b7fc16c285aa2875a5626981)

@@ -1,3 +1,8 @@
+Diff: [delta_Deserialization_0.html](./delta_Deserialization_0.html)
+
+Diff: [delta_Deserialization_1.html](./delta_Deserialization_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/netguru/aws-iam-manager/commit/e381ceececa386e91ed7e07123ad3bbe800c94b9/#diff-e727e4bdf3657fd1d798edcd6b099d6e092f8573cba266154583a746bba0f346L34)
 
 delta_0 [commit_url0](https://www.github.com/netguru/aws-iam-manager/commit/e381ceececa386e91ed7e07123ad3bbe800c94b9)

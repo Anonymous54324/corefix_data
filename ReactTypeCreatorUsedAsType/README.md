@@ -1,3 +1,8 @@
+Diff: [delta_ReactTypeCreatorUsedAsType_1.html](./delta_ReactTypeCreatorUsedAsType_1.html)
+
+Diff: [delta_ReactTypeCreatorUsedAsType_0.html](./delta_ReactTypeCreatorUsedAsType_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/FogCreek/Glitch-Community/commit/b6dd962d33e271570d778d3ffef6e89205c9a7d3/#diff-c19fd367bc2cd2f92f3b92f27f6130b15496ccae006747f34dbc83be744bf0ceL4)
 
 delta_0 [commit_url0](https://www.github.com/FogCreek/Glitch-Community/commit/b6dd962d33e271570d778d3ffef6e89205c9a7d3)

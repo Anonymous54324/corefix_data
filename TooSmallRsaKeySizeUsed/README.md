@@ -1,3 +1,8 @@
+Diff: [delta_TooSmallRsaKeySizeUsed_0.html](./delta_TooSmallRsaKeySizeUsed_0.html)
+
+Diff: [delta_TooSmallRsaKeySizeUsed_1.html](./delta_TooSmallRsaKeySizeUsed_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/oncletom/crx/commit/5b6a979de5d6ea6aba89774b2f42ece457d58e47/#diff-c62f81ae2f654823748ecaaa7c186aad4a563c4f68be736d0394f65a2006ce24L62)
 
 delta_0 [commit_url0](https://www.github.com/oncletom/crx/commit/5b6a979de5d6ea6aba89774b2f42ece457d58e47)

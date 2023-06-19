@@ -1,3 +1,8 @@
+Diff: [delta_BadAwaitExpression_1.html](./delta_BadAwaitExpression_1.html)
+
+Diff: [delta_BadAwaitExpression_0.html](./delta_BadAwaitExpression_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/mkloubert/vscode-remote-workspace/commit/ed136b02c3440f678e78266823684c9f89538f3f/#diff-77ba5de52482c73c208143de495dfaac576048c1f5c365cf209e75753264d77fL284)
 
 delta_0 [commit_url0](https://www.github.com/mkloubert/vscode-remote-workspace/commit/ed136b02c3440f678e78266823684c9f89538f3f)

@@ -1,3 +1,8 @@
+Diff: [delta_LoopDOS_1.html](./delta_LoopDOS_1.html)
+
+Diff: [delta_LoopDOS_0.html](./delta_LoopDOS_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/jagql/framework/commit/9eb3b91a5b5a3403456d962396ecd4b5e3026e6a/#diff-674c327d970dbbed6e65f719efc1abb7fa31bd132c53af8ae701ad088240718dL45)
 
 delta_0 [commit_url0](https://www.github.com/jagql/framework/commit/9eb3b91a5b5a3403456d962396ecd4b5e3026e6a)

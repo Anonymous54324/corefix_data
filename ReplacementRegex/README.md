@@ -1,3 +1,8 @@
+Diff: [delta_ReplacementRegex_1.html](./delta_ReplacementRegex_1.html)
+
+Diff: [delta_ReplacementRegex_0.html](./delta_ReplacementRegex_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/kriskowal/narwhal-lib/commit/d5d42db3b76f89b3a3ba9cc82051ee06a5c68028/#diff-0eed727fa40528f64bd55c848c2ec780fae17d668f65ef9ea3e1e5127aec66caL4)
 
 delta_0 [commit_url0](https://www.github.com/kriskowal/narwhal-lib/commit/d5d42db3b76f89b3a3ba9cc82051ee06a5c68028)

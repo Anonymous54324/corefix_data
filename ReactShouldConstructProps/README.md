@@ -1,3 +1,8 @@
+Diff: [delta_ReactShouldConstructProps_0.html](./delta_ReactShouldConstructProps_0.html)
+
+Diff: [delta_ReactShouldConstructProps_1.html](./delta_ReactShouldConstructProps_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/EsecuBit/EsecuBit-react-native-wallet/commit/c77a49c60ebfefaf9273b651c57452a1d1a02a02/#diff-658f097ff1f178dd8dce32b4c5075ea6854d96d4684c25924f6afab81911fd79L63)
 
 delta_0 [commit_url0](https://www.github.com/EsecuBit/EsecuBit-react-native-wallet/commit/c77a49c60ebfefaf9273b651c57452a1d1a02a02)

@@ -1,3 +1,8 @@
+Diff: [delta_BooleanObjectCreation_0.html](./delta_BooleanObjectCreation_0.html)
+
+Diff: [delta_BooleanObjectCreation_1.html](./delta_BooleanObjectCreation_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/ConSol/sakuli/commit/f787e91156855dc271016e9be12f17b443405faa/#diff-9254ae184d73cdef3af4e626c367ca5327ae887dd7c6774b0499092069563f68L35)
 
 delta_0 [commit_url0](https://www.github.com/ConSol/sakuli/commit/f787e91156855dc271016e9be12f17b443405faa)

@@ -1,3 +1,8 @@
+Diff: [delta_ArrayConstructor_0.html](./delta_ArrayConstructor_0.html)
+
+Diff: [delta_ArrayConstructor_1.html](./delta_ArrayConstructor_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/Philmod/node-kmeans/commit/741cf922da76bcade002966b46fef4f2712fcf35/#diff-236d4549bc2aca7392f38587d4a7f214d1611223a27df6e8c7e21465b044f131L230)
 
 delta_0 [commit_url0](https://www.github.com/Philmod/node-kmeans/commit/741cf922da76bcade002966b46fef4f2712fcf35)

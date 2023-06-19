@@ -1,3 +1,8 @@
+Diff: [delta_CollectionQueriedButNeverUpdated_0.html](./delta_CollectionQueriedButNeverUpdated_0.html)
+
+Diff: [delta_CollectionQueriedButNeverUpdated_1.html](./delta_CollectionQueriedButNeverUpdated_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/qgrid/ng/commit/b6e3b444fd0b0963c4532792a0d6d314ebf1a92c/#diff-ba8ea71bde6d7af3c9f82caed2c1bc9d9001406a62d2eb4785d78ced1df57ccfL48)
 
 delta_0 [commit_url0](https://www.github.com/qgrid/ng/commit/b6e3b444fd0b0963c4532792a0d6d314ebf1a92c)

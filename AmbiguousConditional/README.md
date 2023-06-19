@@ -1,3 +1,8 @@
+Diff: [delta_AmbiguousConditional_0.html](./delta_AmbiguousConditional_0.html)
+
+Diff: [delta_AmbiguousConditional_1.html](./delta_AmbiguousConditional_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/owid/owid-grapher/commit/1cba419bf90f36cc2f7e39d7a980d91f293ea0b2/#diff-563716c4aef3a4b7060f88f5d3e820193ae28dbb74cd5bc33efef7b31ca6efabL261)
 
 delta_0 [commit_url0](https://www.github.com/owid/owid-grapher/commit/1cba419bf90f36cc2f7e39d7a980d91f293ea0b2)

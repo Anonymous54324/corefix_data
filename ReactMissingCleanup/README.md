@@ -1,3 +1,8 @@
+Diff: [delta_ReactMissingCleanup_0.html](./delta_ReactMissingCleanup_0.html)
+
+Diff: [delta_ReactMissingCleanup_1.html](./delta_ReactMissingCleanup_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/fakiolinho/react-loading/commit/0346d859cd66f2ce3af5c13112a172866710feb3/#diff-08a7e32037fa8a3326f28bcf931bb55d614ffee424de64b164518e9b8faeecbcL17)
 
 delta_0 [commit_url0](https://www.github.com/fakiolinho/react-loading/commit/0346d859cd66f2ce3af5c13112a172866710feb3)

@@ -1,3 +1,8 @@
+Diff: [delta_RegExpBadCharRange_0.html](./delta_RegExpBadCharRange_0.html)
+
+Diff: [delta_RegExpBadCharRange_1.html](./delta_RegExpBadCharRange_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/hughsk/uglifyify/commit/7b02b444bb5261f38812fd92d7bdfd8cd8c9e9d1/#diff-e727e4bdf3657fd1d798edcd6b099d6e092f8573cba266154583a746bba0f346L50)
 
 delta_0 [commit_url0](https://www.github.com/hughsk/uglifyify/commit/7b02b444bb5261f38812fd92d7bdfd8cd8c9e9d1)

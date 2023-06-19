@@ -1,3 +1,8 @@
+Diff: [delta_PT_0.html](./delta_PT_0.html)
+
+Diff: [delta_PT_1.html](./delta_PT_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/cerebral/webpack-dll/commit/b31cd7e9a79be82f3d4198f244e893fdef5f5b99/#diff-07ddda5c32f4cf5b178c4c69db424c7b05c9ca6b25ba603c02266211f76e9795L17)
 
 delta_0 [commit_url0](https://www.github.com/cerebral/webpack-dll/commit/b31cd7e9a79be82f3d4198f244e893fdef5f5b99)

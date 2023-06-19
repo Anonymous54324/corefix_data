@@ -1,3 +1,8 @@
+Diff: [delta_ReactStateFromProps_0.html](./delta_ReactStateFromProps_0.html)
+
+Diff: [delta_ReactStateFromProps_1.html](./delta_ReactStateFromProps_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/department-of-veterans-affairs/vets-website/commit/71a049c10d71a51611dff8a6660796dee9353235/#diff-ea686999d5893a244bb517416ac7adcdbc09aeb97e2241169281744c62976d2aL130)
 
 delta_0 [commit_url0](https://www.github.com/department-of-veterans-affairs/vets-website/commit/71a049c10d71a51611dff8a6660796dee9353235)

@@ -1,3 +1,8 @@
+Diff: [delta_UseSecureWebsockets_1.html](./delta_UseSecureWebsockets_1.html)
+
+Diff: [delta_UseSecureWebsockets_0.html](./delta_UseSecureWebsockets_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/wso2/carbon-dashboards/commit/bc4b484ce5ee0e7ef5aa99be681606746cfe148a/#diff-67805298541e1637b861a60d5231126e8dc4a0706592d21a62fa29f4c0f4dde6L41)
 
 delta_0 [commit_url0](https://www.github.com/wso2/carbon-dashboards/commit/bc4b484ce5ee0e7ef5aa99be681606746cfe148a)

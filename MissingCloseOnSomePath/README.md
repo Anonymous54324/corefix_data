@@ -1,3 +1,8 @@
+Diff: [delta_MissingCloseOnSomePath_1.html](./delta_MissingCloseOnSomePath_1.html)
+
+Diff: [delta_MissingCloseOnSomePath_0.html](./delta_MissingCloseOnSomePath_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/TarifaTools/tarifa/commit/d147c7d7a031c04e4556178f77833d2678a23b70/#diff-c0d603ba0553d973ab6203c21a9b70acbb022ecbcc527ee14d3bf7ca03f3ba1cL15)
 
 delta_0 [commit_url0](https://www.github.com/TarifaTools/tarifa/commit/d147c7d7a031c04e4556178f77833d2678a23b70)

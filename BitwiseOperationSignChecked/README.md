@@ -1,3 +1,8 @@
+Diff: [delta_BitwiseOperationSignChecked_0.html](./delta_BitwiseOperationSignChecked_0.html)
+
+Diff: [delta_BitwiseOperationSignChecked_1.html](./delta_BitwiseOperationSignChecked_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/Kinoma/kinomajs/commit/7dc2cb3c220041c6dff7c56d28bdae18ad952597/#diff-38180f0a57c35d7d01e6a9e9bdb05a55d3e98b318312e5e6b00ca0fc79d76df0L780)
 
 delta_0 [commit_url0](https://www.github.com/Kinoma/kinomajs/commit/7dc2cb3c220041c6dff7c56d28bdae18ad952597)

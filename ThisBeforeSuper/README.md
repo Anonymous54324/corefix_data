@@ -1,3 +1,8 @@
+Diff: [delta_ThisBeforeSuper_1.html](./delta_ThisBeforeSuper_1.html)
+
+Diff: [delta_ThisBeforeSuper_0.html](./delta_ThisBeforeSuper_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/mixer/jojen/commit/3f49b6ca21e2ba7e020ce589f8a069a76e2957c3/#diff-ffadab0ba7a844f70b864530afe444d3684ca96212ca5b3e3bcd72291e535123L6)
 
 delta_0 [commit_url0](https://www.github.com/mixer/jojen/commit/3f49b6ca21e2ba7e020ce589f8a069a76e2957c3)

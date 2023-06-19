@@ -1,3 +1,8 @@
+Diff: [delta_reDOS_1.html](./delta_reDOS_1.html)
+
+Diff: [delta_reDOS_0.html](./delta_reDOS_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/yunity/karrot-frontend/commit/d9dbdefed7489f5f81d15aff0ea38a88df71245c/#diff-54b51ec78e087daf005836aa9a4f79c494a97c0e70b452cb9545bb4896dc8a5eL8)
 
 delta_0 [commit_url0](https://www.github.com/yunity/karrot-frontend/commit/d9dbdefed7489f5f81d15aff0ea38a88df71245c)

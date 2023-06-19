@@ -1,3 +1,8 @@
+Diff: [delta_ExpectsObjectDislikesPrimitive_1.html](./delta_ExpectsObjectDislikesPrimitive_1.html)
+
+Diff: [delta_ExpectsObjectDislikesPrimitive_0.html](./delta_ExpectsObjectDislikesPrimitive_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/bumoproject/bumo/commit/0d3bc9b89f9b119f00413106ec289d711f97cda0/#diff-a7e3b2265880ea8c4f3e4fc0abb5bf5a7a30eb800034035cc166bf9f95af3413L181)
 
 delta_0 [commit_url0](https://www.github.com/bumoproject/bumo/commit/0d3bc9b89f9b119f00413106ec289d711f97cda0)

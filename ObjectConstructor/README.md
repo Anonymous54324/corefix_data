@@ -1,3 +1,8 @@
+Diff: [delta_ObjectConstructor_1.html](./delta_ObjectConstructor_1.html)
+
+Diff: [delta_ObjectConstructor_0.html](./delta_ObjectConstructor_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/matomo-org/matomo/commit/2c7a5d168983ceb698b8b98344b5bf880ebfda24/#diff-1f3f7f1b5c7a4a821e15172ae1db04bd34a3927aae343c64350cdbf22eb38916L106)
 
 delta_0 [commit_url0](https://www.github.com/matomo-org/matomo/commit/2c7a5d168983ceb698b8b98344b5bf880ebfda24)

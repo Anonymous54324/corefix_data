@@ -1,3 +1,8 @@
+Diff: [delta_WebCookieSecureDisabledExplicitly_1.html](./delta_WebCookieSecureDisabledExplicitly_1.html)
+
+Diff: [delta_WebCookieSecureDisabledExplicitly_0.html](./delta_WebCookieSecureDisabledExplicitly_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/liamcottam/place/commit/e2fd862cdc3371e9d97315f0e9e3c82e05cefb31/#diff-dd43622fb237e68402ee35efb05c2492c170c1f74829338b54c17f61c01c3189L25)
 
 delta_0 [commit_url0](https://www.github.com/liamcottam/place/commit/e2fd862cdc3371e9d97315f0e9e3c82e05cefb31)

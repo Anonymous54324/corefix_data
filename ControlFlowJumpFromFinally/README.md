@@ -1,3 +1,8 @@
+Diff: [delta_ControlFlowJumpFromFinally_0.html](./delta_ControlFlowJumpFromFinally_0.html)
+
+Diff: [delta_ControlFlowJumpFromFinally_1.html](./delta_ControlFlowJumpFromFinally_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/fkling/JSNetworkX/commit/0cc87c0da0bda7aa7105296b09a1529191e456a9/#diff-d1dc50e737441eca7ead2c96f0f8b7b399f883e2775037bfa5d96b1077bc55daL9)
 
 delta_0 [commit_url0](https://www.github.com/fkling/JSNetworkX/commit/0cc87c0da0bda7aa7105296b09a1529191e456a9)

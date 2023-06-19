@@ -1,3 +1,8 @@
+Diff: [delta_EmberInitializerDeprecation_1.html](./delta_EmberInitializerDeprecation_1.html)
+
+Diff: [delta_EmberInitializerDeprecation_0.html](./delta_EmberInitializerDeprecation_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/oliverbarnes/old-participate-client/commit/0fc9a55ca72ec4aaa97e7efc0bb88f6d862459e8/#diff-93e5bdab31bbc01fedc909793f816507c43c9e2f2024d3688e34b9363a681516L6)
 
 delta_0 [commit_url0](https://www.github.com/oliverbarnes/old-participate-client/commit/0fc9a55ca72ec4aaa97e7efc0bb88f6d862459e8)

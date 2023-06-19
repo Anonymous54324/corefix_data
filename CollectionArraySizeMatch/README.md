@@ -1,3 +1,8 @@
+Diff: [delta_CollectionArraySizeMatch_0.html](./delta_CollectionArraySizeMatch_0.html)
+
+Diff: [delta_CollectionArraySizeMatch_1.html](./delta_CollectionArraySizeMatch_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/D-Andreev/recommender-addon/commit/dc9018904b08e6b864846a756e434e68e3546d12/#diff-520898a138e8792b7b1aa77869647954fa6f76f26715316ae54848377268ae5aL463)
 
 delta_0 [commit_url0](https://www.github.com/D-Andreev/recommender-addon/commit/dc9018904b08e6b864846a756e434e68e3546d12)

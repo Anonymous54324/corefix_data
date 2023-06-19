@@ -1,3 +1,8 @@
+Diff: [delta_DOMXSS_0.html](./delta_DOMXSS_0.html)
+
+Diff: [delta_DOMXSS_1.html](./delta_DOMXSS_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/DemocracyOS/hub/commit/e9e34d110eff57aa3ab8b14757cd6da475d13f77/#diff-d28e800f24ef6fca1097d900fdd00f6e6820b0127bef0185dee563a41b6285b7L39)
 
 delta_0 [commit_url0](https://www.github.com/DemocracyOS/hub/commit/e9e34d110eff57aa3ab8b14757cd6da475d13f77)

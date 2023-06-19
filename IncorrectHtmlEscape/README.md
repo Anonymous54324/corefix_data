@@ -1,3 +1,8 @@
+Diff: [delta_IncorrectHtmlEscape_0.html](./delta_IncorrectHtmlEscape_0.html)
+
+Diff: [delta_IncorrectHtmlEscape_1.html](./delta_IncorrectHtmlEscape_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/yswenli/WebRedisManager/commit/4ad5c9b34bd2d2460513e38a7741cf97930a0176/#diff-1d9e3873f1b177126825998bdae13a1308b9c65bed9605b3c641a4abcb79e9dfL6)
 
 delta_0 [commit_url0](https://www.github.com/yswenli/WebRedisManager/commit/4ad5c9b34bd2d2460513e38a7741cf97930a0176)

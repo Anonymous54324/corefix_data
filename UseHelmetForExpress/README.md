@@ -1,3 +1,8 @@
+Diff: [delta_UseHelmetForExpress_1.html](./delta_UseHelmetForExpress_1.html)
+
+Diff: [delta_UseHelmetForExpress_0.html](./delta_UseHelmetForExpress_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/builderbook/builderbook/commit/a2562c5add65e74bdaddb7e9c5e4660b35295736/#diff-dd114e7792e4c3f2e7337a06276e0092f5a346f8dab68a86d779339d193d8bf8L37)
 
 delta_0 [commit_url0](https://www.github.com/builderbook/builderbook/commit/a2562c5add65e74bdaddb7e9c5e4660b35295736)

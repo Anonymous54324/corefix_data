@@ -1,3 +1,8 @@
+Diff: [delta_DuplicateCaseSwitch_1.html](./delta_DuplicateCaseSwitch_1.html)
+
+Diff: [delta_DuplicateCaseSwitch_0.html](./delta_DuplicateCaseSwitch_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/stellar-deprecated/stellar-client/commit/b113f64e19f5d8b8ee91ee58bd626706a015a9ec/#diff-1f1c296907084cb74b4aea5ac128712e67bf1b3555a9df99e2f83b2ce1de52dfL120)
 
 delta_0 [commit_url0](https://www.github.com/stellar-deprecated/stellar-client/commit/b113f64e19f5d8b8ee91ee58bd626706a015a9ec)

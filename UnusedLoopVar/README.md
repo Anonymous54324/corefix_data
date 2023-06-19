@@ -1,3 +1,8 @@
+Diff: [delta_UnusedLoopVar_1.html](./delta_UnusedLoopVar_1.html)
+
+Diff: [delta_UnusedLoopVar_0.html](./delta_UnusedLoopVar_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/cuthbertLab/music21j/commit/4781124ec55748e715c873e6e5bfd8bf08669835/#diff-003960bac3715d83af237cd26e587750c8619cf36d53c44f2aec3ec108ddcc67L2895)
 
 delta_0 [commit_url0](https://www.github.com/cuthbertLab/music21j/commit/4781124ec55748e715c873e6e5bfd8bf08669835)

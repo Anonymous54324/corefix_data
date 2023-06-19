@@ -1,3 +1,8 @@
+Diff: [delta_NoCryptoTimingAttacks_1.html](./delta_NoCryptoTimingAttacks_1.html)
+
+Diff: [delta_NoCryptoTimingAttacks_0.html](./delta_NoCryptoTimingAttacks_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/nkjm/bot-express/commit/76c36ce5f1f1606b48c1d7edbb3297db6025752d/#diff-4d4bea1db8f881f467f301d9f16fea4025e0416a50e2725c151f22ee691a619dL66)
 
 delta_0 [commit_url0](https://www.github.com/nkjm/bot-express/commit/76c36ce5f1f1606b48c1d7edbb3297db6025752d)

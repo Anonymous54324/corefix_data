@@ -1,3 +1,8 @@
+Diff: [delta_NoZeroReturnedInSort_1.html](./delta_NoZeroReturnedInSort_1.html)
+
+Diff: [delta_NoZeroReturnedInSort_0.html](./delta_NoZeroReturnedInSort_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/avwo/whistle/commit/659fe471c9a5d1df880c88ce10b9cee5207b457a/#diff-1bd1a2eaea8664fb0e66726cb63469defeb549b5a5b708eb6f3e33b258529d3aL95)
 
 delta_0 [commit_url0](https://www.github.com/avwo/whistle/commit/659fe471c9a5d1df880c88ce10b9cee5207b457a)

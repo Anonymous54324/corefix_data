@@ -1,3 +1,8 @@
+Diff: [delta_TooPermissiveCorsPostMessage_1.html](./delta_TooPermissiveCorsPostMessage_1.html)
+
+Diff: [delta_TooPermissiveCorsPostMessage_0.html](./delta_TooPermissiveCorsPostMessage_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/acgotaku/BaiduExporter/commit/35c8bc929c0a6577024d0f6cab716b01eacb8b7a/#diff-653ef8ac779966934e001b35df25a263f6a9105625ec5d3e1ebe7000e856bc2eL393)
 
 delta_0 [commit_url0](https://www.github.com/acgotaku/BaiduExporter/commit/35c8bc929c0a6577024d0f6cab716b01eacb8b7a)

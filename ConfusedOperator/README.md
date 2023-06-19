@@ -1,3 +1,8 @@
+Diff: [delta_ConfusedOperator_0.html](./delta_ConfusedOperator_0.html)
+
+Diff: [delta_ConfusedOperator_1.html](./delta_ConfusedOperator_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/probot/weekly-digest/commit/db3eac826004e86848265d7edbb5dae6f9d37546/#diff-318f373a9b0b7bcee36b1d87c7510e96754049ff6c2ef7c8e9359f76453847a5L5)
 
 delta_0 [commit_url0](https://www.github.com/probot/weekly-digest/commit/db3eac826004e86848265d7edbb5dae6f9d37546)

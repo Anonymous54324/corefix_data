@@ -1,3 +1,8 @@
+Diff: [delta_WebCookieSecureDisabledByDefault_1.html](./delta_WebCookieSecureDisabledByDefault_1.html)
+
+Diff: [delta_WebCookieSecureDisabledByDefault_0.html](./delta_WebCookieSecureDisabledByDefault_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/hivewallet/hive-ios/commit/4f67734bcdcfd48d82759da56f786281f827e53a/#diff-508a23447a8bedbdfb84a7a7143adea3f3213e2548e5c3c866001e97ded8220bL48)
 
 delta_0 [commit_url0](https://www.github.com/hivewallet/hive-ios/commit/4f67734bcdcfd48d82759da56f786281f827e53a)

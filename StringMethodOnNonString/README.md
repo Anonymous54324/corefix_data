@@ -1,3 +1,8 @@
+Diff: [delta_StringMethodOnNonString_1.html](./delta_StringMethodOnNonString_1.html)
+
+Diff: [delta_StringMethodOnNonString_0.html](./delta_StringMethodOnNonString_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/muaz-khan/DetectRTC/commit/bee1a473926fdada05d7056e9bbcc71ec3007fa4/#diff-a11dcfb30f33910fca7baa5a8616d173de380390c08c9b28ef5e803843d1132cL71)
 
 delta_0 [commit_url0](https://www.github.com/muaz-khan/DetectRTC/commit/bee1a473926fdada05d7056e9bbcc71ec3007fa4)

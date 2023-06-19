@@ -1,3 +1,8 @@
+Diff: [delta_LoopConditionLengthMissing_1.html](./delta_LoopConditionLengthMissing_1.html)
+
+Diff: [delta_LoopConditionLengthMissing_0.html](./delta_LoopConditionLengthMissing_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/chauffer/steamSummerMinigame/commit/6cc6b23fde3167204330556dcce8baf403c84430/#diff-4b6e42e24a3f9dde2f54989a544612f89907238739a42acdb62ded8d75cc6a12L303)
 
 delta_0 [commit_url0](https://www.github.com/chauffer/steamSummerMinigame/commit/6cc6b23fde3167204330556dcce8baf403c84430)

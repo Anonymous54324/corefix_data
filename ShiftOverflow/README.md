@@ -1,3 +1,8 @@
+Diff: [delta_ShiftOverflow_0.html](./delta_ShiftOverflow_0.html)
+
+Diff: [delta_ShiftOverflow_1.html](./delta_ShiftOverflow_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/joyent/node-ip6addr/commit/9c01dd3d5ad5ce09c3005fd2c4f975685ad13aa4/#diff-f0de1469dee957402553aa98736148b6aab554ecff4839a894184b8e8d337967L473)
 
 delta_0 [commit_url0](https://www.github.com/joyent/node-ip6addr/commit/9c01dd3d5ad5ce09c3005fd2c4f975685ad13aa4)

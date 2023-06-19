@@ -1,3 +1,8 @@
+Diff: [delta_ReactMissingEventHandlerCleanup_0.html](./delta_ReactMissingEventHandlerCleanup_0.html)
+
+Diff: [delta_ReactMissingEventHandlerCleanup_1.html](./delta_ReactMissingEventHandlerCleanup_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/WordPress/gutenberg/commit/8bda44f8b8f4b8f7a4af2f34db6a7f57b762ce0d/#diff-1fec4d9e393b6e5d247749637ab54cc0ed8d1628f54cfe91ba156e11fb0a75d0L44)
 
 delta_0 [commit_url0](https://www.github.com/WordPress/gutenberg/commit/8bda44f8b8f4b8f7a4af2f34db6a7f57b762ce0d)

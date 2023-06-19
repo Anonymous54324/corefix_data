@@ -1,3 +1,8 @@
+Diff: [delta_ArithmeticOperationWithNaN_1.html](./delta_ArithmeticOperationWithNaN_1.html)
+
+Diff: [delta_ArithmeticOperationWithNaN_0.html](./delta_ArithmeticOperationWithNaN_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/yathit/ydn-db/commit/1ff69652913ae61f36775b11333a8a6b85876a3c/#diff-5736ec31a87b56a74607c093fb1cb0e27b5e1402ab16e059a65a9c9053a30433L144)
 
 delta_0 [commit_url0](https://www.github.com/yathit/ydn-db/commit/1ff69652913ae61f36775b11333a8a6b85876a3c)

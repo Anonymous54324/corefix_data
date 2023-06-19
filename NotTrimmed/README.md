@@ -1,3 +1,8 @@
+Diff: [delta_NotTrimmed_1.html](./delta_NotTrimmed_1.html)
+
+Diff: [delta_NotTrimmed_0.html](./delta_NotTrimmed_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/orange-alliance/the-orange-alliance/commit/714ba54cf05a203839ae13837b5c61fd9ec76ca3/#diff-8fd18e8015750d6b7ebc7e51717d3bd831f54ae9dfb609564acb63ac14ac6c89L14)
 
 delta_0 [commit_url0](https://www.github.com/orange-alliance/the-orange-alliance/commit/714ba54cf05a203839ae13837b5c61fd9ec76ca3)

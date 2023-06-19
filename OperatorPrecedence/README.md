@@ -1,3 +1,8 @@
+Diff: [delta_OperatorPrecedence_1.html](./delta_OperatorPrecedence_1.html)
+
+Diff: [delta_OperatorPrecedence_0.html](./delta_OperatorPrecedence_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/haraka/Haraka/commit/1077834a5bd67c125a320c5d265e38a80a1651ae/#diff-d90783345301b7298602b294950f1702f71e5db027e96e8ae2d3f9b2dbee9d0eL102)
 
 delta_0 [commit_url0](https://www.github.com/haraka/Haraka/commit/1077834a5bd67c125a320c5d265e38a80a1651ae)

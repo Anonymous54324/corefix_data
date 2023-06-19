@@ -1,3 +1,8 @@
+Diff: [delta_NoRateLimitingForExpensiveWebOperation_1.html](./delta_NoRateLimitingForExpensiveWebOperation_1.html)
+
+Diff: [delta_NoRateLimitingForExpensiveWebOperation_0.html](./delta_NoRateLimitingForExpensiveWebOperation_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/kasbah/git-clone-server/commit/f1eb582a74e1d744c77ce6b343c3666beca2a907/#diff-c72a907ac323cd2f334ed0e2bd07d15ab62581c4753660c8a0d1c681b30be4b6L94)
 
 delta_0 [commit_url0](https://www.github.com/kasbah/git-clone-server/commit/f1eb582a74e1d744c77ce6b343c3666beca2a907)

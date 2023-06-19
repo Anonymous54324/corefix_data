@@ -1,3 +1,8 @@
+Diff: [delta_ReactDeprecatedElementProp_1.html](./delta_ReactDeprecatedElementProp_1.html)
+
+Diff: [delta_ReactDeprecatedElementProp_0.html](./delta_ReactDeprecatedElementProp_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/regentmarkets-repo-archive/binary-next-gen/commit/6849b3455757869d1d0da770934d47b452db114c/#diff-be9e4890d0753c88d71a4f2bb222e8ecc898f0d4ecfa32de5620eb26b38b4337L71)
 
 delta_0 [commit_url0](https://www.github.com/regentmarkets-repo-archive/binary-next-gen/commit/6849b3455757869d1d0da770934d47b452db114c)

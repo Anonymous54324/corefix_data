@@ -1,3 +1,8 @@
+Diff: [delta_CopyPasteError_1.html](./delta_CopyPasteError_1.html)
+
+Diff: [delta_CopyPasteError_0.html](./delta_CopyPasteError_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/mikeal/bent/commit/2be1509f036ce46d43e7ee5295e458b831771949/#diff-341f39e37a92244daaf4fd691a67fd2caa4f9237d92b296584f165b3c512d193L29)
 
 delta_0 [commit_url0](https://www.github.com/mikeal/bent/commit/2be1509f036ce46d43e7ee5295e458b831771949)

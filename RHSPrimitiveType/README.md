@@ -1,3 +1,8 @@
+Diff: [delta_RHSPrimitiveType_1.html](./delta_RHSPrimitiveType_1.html)
+
+Diff: [delta_RHSPrimitiveType_0.html](./delta_RHSPrimitiveType_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/PaulKinlan/formfactor/commit/dfec931b0bf0445636fb5de880dbf040ee07b8f4/#diff-0bceae1526f65ef709f48ad81f09a476c274d3712b0a57cbd4c149fa63f386e0L88)
 
 delta_0 [commit_url0](https://www.github.com/PaulKinlan/formfactor/commit/dfec931b0bf0445636fb5de880dbf040ee07b8f4)

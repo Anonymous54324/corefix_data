@@ -1,3 +1,8 @@
+Diff: [delta_EqualityMisplacedParentheses_0.html](./delta_EqualityMisplacedParentheses_0.html)
+
+Diff: [delta_EqualityMisplacedParentheses_1.html](./delta_EqualityMisplacedParentheses_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/spazproject/spazcore/commit/c37a01c200d0fd6f9a99e400ace04ec636360641/#diff-29fb39b51065d6eedd5a60938a55672b658f980f50ffb857aa7dab5274447d98L1341)
 
 delta_0 [commit_url0](https://www.github.com/spazproject/spazcore/commit/c37a01c200d0fd6f9a99e400ace04ec636360641)

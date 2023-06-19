@@ -1,3 +1,8 @@
+Diff: [delta_NoHardcodedPasswords_1.html](./delta_NoHardcodedPasswords_1.html)
+
+Diff: [delta_NoHardcodedPasswords_0.html](./delta_NoHardcodedPasswords_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/osvaldokalvaitir/node-modulo3-novo/commit/6b70827bfc9a7a5b65eca2aca5f619cffba01bcd/#diff-dc0111d4184cc5bc7b712bb56cdc1625e41417a2cdedae636bb92eaeb8487de5L5)
 
 delta_0 [commit_url0](https://www.github.com/osvaldokalvaitir/node-modulo3-novo/commit/6b70827bfc9a7a5b65eca2aca5f619cffba01bcd)

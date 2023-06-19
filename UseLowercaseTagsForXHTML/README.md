@@ -1,3 +1,8 @@
+Diff: [delta_UseLowercaseTagsForXHTML_0.html](./delta_UseLowercaseTagsForXHTML_0.html)
+
+Diff: [delta_UseLowercaseTagsForXHTML_1.html](./delta_UseLowercaseTagsForXHTML_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/DDMAL/diva.js/commit/dfc187a5eb763a8930097bbed1e4914e7d523963/#diff-b821751d7a25af6c7e04353e20509bfefe78a9422be8b67a2deb933f2046c3ffL50)
 
 delta_0 [commit_url0](https://www.github.com/DDMAL/diva.js/commit/dfc187a5eb763a8930097bbed1e4914e7d523963)

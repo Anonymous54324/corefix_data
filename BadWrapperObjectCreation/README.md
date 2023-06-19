@@ -1,3 +1,8 @@
+Diff: [delta_BadWrapperObjectCreation_1.html](./delta_BadWrapperObjectCreation_1.html)
+
+Diff: [delta_BadWrapperObjectCreation_0.html](./delta_BadWrapperObjectCreation_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/git-pwn/is.js/commit/6f611640762cc341b7545fd8f2059a49d0f2303f/#diff-3f2ba48914eb4320febd20d810f7d9c68dff11f5237e6c13ed93a2be74ba3e57L17)
 
 delta_0 [commit_url0](https://www.github.com/git-pwn/is.js/commit/6f611640762cc341b7545fd8f2059a49d0f2303f)

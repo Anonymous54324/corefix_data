@@ -1,3 +1,8 @@
+Diff: [delta_DuplicateVueProperty_1.html](./delta_DuplicateVueProperty_1.html)
+
+Diff: [delta_DuplicateVueProperty_0.html](./delta_DuplicateVueProperty_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/smallpath/blog/commit/a51846c462da07c2382d37ab38b5682f0f5abdb7/#diff-8ef633f799eb6f484d6a860e78b2a995f8db9520db9d146f8295e8b4ce006fabL56)
 
 delta_0 [commit_url0](https://www.github.com/smallpath/blog/commit/a51846c462da07c2382d37ab38b5682f0f5abdb7)

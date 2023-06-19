@@ -1,3 +1,8 @@
+Diff: [delta_PrototypePollution_0.html](./delta_PrototypePollution_0.html)
+
+Diff: [delta_PrototypePollution_1.html](./delta_PrototypePollution_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/vampd/vampd/commit/edc7005b68e3e42f461249f8257ba16664983a79/#diff-8832eceed707e9acd023cc8a42587cb109d860d7272ff10950e3a01bb6f9be94L54)
 
 delta_0 [commit_url0](https://www.github.com/vampd/vampd/commit/edc7005b68e3e42f461249f8257ba16664983a79)

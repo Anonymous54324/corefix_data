@@ -1,3 +1,8 @@
+Diff: [delta_ComparisonToNaN_0.html](./delta_ComparisonToNaN_0.html)
+
+Diff: [delta_ComparisonToNaN_1.html](./delta_ComparisonToNaN_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/avg-plus/avg.renderer/commit/ca7864480a7da05679584ab9e578c373fef9ab87/#diff-a08a869ba2fc0a92b9d1fcc9eac6bbf6140a6bed6f240b391716f8b160f151b2L67)
 
 delta_0 [commit_url0](https://www.github.com/avg-plus/avg.renderer/commit/ca7864480a7da05679584ab9e578c373fef9ab87)

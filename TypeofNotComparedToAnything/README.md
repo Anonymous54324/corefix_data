@@ -1,3 +1,8 @@
+Diff: [delta_TypeofNotComparedToAnything_0.html](./delta_TypeofNotComparedToAnything_0.html)
+
+Diff: [delta_TypeofNotComparedToAnything_1.html](./delta_TypeofNotComparedToAnything_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/infiniteautomation/ma-core-public/commit/36a9a8d765ee8fb589f63a8b84f512f77f1bb048/#diff-a34f35f9500023f6df9e7ad917e0f0c0e487849da8de669cf414088464145a54L403)
 
 delta_0 [commit_url0](https://www.github.com/infiniteautomation/ma-core-public/commit/36a9a8d765ee8fb589f63a8b84f512f77f1bb048)

@@ -1,3 +1,8 @@
+Diff: [delta_NoHardcodedCredentials_0.html](./delta_NoHardcodedCredentials_0.html)
+
+Diff: [delta_NoHardcodedCredentials_1.html](./delta_NoHardcodedCredentials_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/krhoyt/IBM/commit/b86c094aa8990f7e621696384eeb9fdf9639f41a/#diff-cd839b072da75147f2637c7a1d1e3f658643d9555de770b4cfac34c78ff53bd5L48)
 
 delta_0 [commit_url0](https://www.github.com/krhoyt/IBM/commit/b86c094aa8990f7e621696384eeb9fdf9639f41a)

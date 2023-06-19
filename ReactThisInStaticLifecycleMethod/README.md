@@ -1,3 +1,8 @@
+Diff: [delta_ReactThisInStaticLifecycleMethod_0.html](./delta_ReactThisInStaticLifecycleMethod_0.html)
+
+Diff: [delta_ReactThisInStaticLifecycleMethod_1.html](./delta_ReactThisInStaticLifecycleMethod_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/flyve-mdm/web-mdm-dashboard/commit/296df715ac6b454d0371aee6e757c84e37844e56/#diff-579a31912778d14a26ed7988bf42e61d7c036b6d51488c5b6f16c6b25615cbb5L54)
 
 delta_0 [commit_url0](https://www.github.com/flyve-mdm/web-mdm-dashboard/commit/296df715ac6b454d0371aee6e757c84e37844e56)

@@ -1,3 +1,8 @@
+Diff: [delta_CallbackShouldReturn_1.html](./delta_CallbackShouldReturn_1.html)
+
+Diff: [delta_CallbackShouldReturn_0.html](./delta_CallbackShouldReturn_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/jviereck/pdfListView/commit/9b863a02135376d57e1a8f0e3d35e967b731bc7b/#diff-e727e4bdf3657fd1d798edcd6b099d6e092f8573cba266154583a746bba0f346L134)
 
 delta_0 [commit_url0](https://www.github.com/jviereck/pdfListView/commit/9b863a02135376d57e1a8f0e3d35e967b731bc7b)

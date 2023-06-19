@@ -1,3 +1,8 @@
+Diff: [delta_NonLocalLoopVar_0.html](./delta_NonLocalLoopVar_0.html)
+
+Diff: [delta_NonLocalLoopVar_1.html](./delta_NonLocalLoopVar_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/microsoft/botbuilder-tools/commit/cbfd0c6295e1faef16cd7659747c0f3837bf50e9/#diff-b7332c991e230b174c7e6149cabb9205ab35a4aa885890112759ecb4f6f31ec7L178)
 
 delta_0 [commit_url0](https://www.github.com/microsoft/botbuilder-tools/commit/cbfd0c6295e1faef16cd7659747c0f3837bf50e9)

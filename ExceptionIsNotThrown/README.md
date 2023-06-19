@@ -1,3 +1,8 @@
+Diff: [delta_ExceptionIsNotThrown_1.html](./delta_ExceptionIsNotThrown_1.html)
+
+Diff: [delta_ExceptionIsNotThrown_0.html](./delta_ExceptionIsNotThrown_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/pmq20/node-packer/commit/003e5bc6eeaee72be3b7d183d928b19860955f6a/#diff-99de9ee2d837fa153f15e8b172bf398c244f03e16a0b8be7679c2bad8bd5bdf5L279)
 
 delta_0 [commit_url0](https://www.github.com/pmq20/node-packer/commit/003e5bc6eeaee72be3b7d183d928b19860955f6a)

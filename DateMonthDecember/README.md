@@ -1,3 +1,8 @@
+Diff: [delta_DateMonthDecember_1.html](./delta_DateMonthDecember_1.html)
+
+Diff: [delta_DateMonthDecember_0.html](./delta_DateMonthDecember_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/softwerkskammer/Agora/commit/5e36881736e114e0256b7cb21d3e2e254dc86c08/#diff-c544203b44f4bd709bf7ae48341d2f840772e2119a20275fdbc6dcab1375ec1bL16)
 
 delta_0 [commit_url0](https://www.github.com/softwerkskammer/Agora/commit/5e36881736e114e0256b7cb21d3e2e254dc86c08)

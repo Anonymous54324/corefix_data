@@ -1,3 +1,8 @@
+Diff: [delta_UseArrowFunction_1.html](./delta_UseArrowFunction_1.html)
+
+Diff: [delta_UseArrowFunction_0.html](./delta_UseArrowFunction_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/openchain/openchain-js/commit/d2a6c681bfa5d8a83c234def0a96561e3fcdc5ac/#diff-270c7f00e12850369a8c578423aaa6528872d2403f33f2104e8238b4d96fa52dL40)
 
 delta_0 [commit_url0](https://www.github.com/openchain/openchain-js/commit/d2a6c681bfa5d8a83c234def0a96561e3fcdc5ac)

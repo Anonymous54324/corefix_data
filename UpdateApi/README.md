@@ -1,3 +1,8 @@
+Diff: [delta_UpdateApi_0.html](./delta_UpdateApi_0.html)
+
+Diff: [delta_UpdateApi_1.html](./delta_UpdateApi_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/google/googlecrisismap/commit/6668d976d33ab90353eab2e51bb8e0ff37aa703f/#diff-7136cec64a7a47121a7c002944d7d6ec4de99aff4ea4654c5fd6d0618a216fbfL265)
 
 delta_0 [commit_url0](https://www.github.com/google/googlecrisismap/commit/6668d976d33ab90353eab2e51bb8e0ff37aa703f)

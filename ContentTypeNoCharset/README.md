@@ -1,3 +1,8 @@
+Diff: [delta_ContentTypeNoCharset_0.html](./delta_ContentTypeNoCharset_0.html)
+
+Diff: [delta_ContentTypeNoCharset_1.html](./delta_ContentTypeNoCharset_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/Faleidel/moontreeproject/commit/465c86e71884af65e684127a1862d443414486dc/#diff-e7ba9fdafc52e4118cca4e997bb6777ce3a53db520cc2c10714152cacb42a74bL27)
 
 delta_0 [commit_url0](https://www.github.com/Faleidel/moontreeproject/commit/465c86e71884af65e684127a1862d443414486dc)

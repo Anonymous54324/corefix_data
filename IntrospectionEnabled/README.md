@@ -1,3 +1,8 @@
+Diff: [delta_IntrospectionEnabled_1.html](./delta_IntrospectionEnabled_1.html)
+
+Diff: [delta_IntrospectionEnabled_0.html](./delta_IntrospectionEnabled_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/harmboschloo/graphql-to-elm/commit/b8101eeda768d80e38fceb34d9a4bc033818f718/#diff-2c1f72019ca8351ec8933a5e502651a3ae4d0af1b52f0ac0d669d878c564b5cdL49)
 
 delta_0 [commit_url0](https://www.github.com/harmboschloo/graphql-to-elm/commit/b8101eeda768d80e38fceb34d9a4bc033818f718)

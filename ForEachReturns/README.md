@@ -1,3 +1,8 @@
+Diff: [delta_ForEachReturns_1.html](./delta_ForEachReturns_1.html)
+
+Diff: [delta_ForEachReturns_0.html](./delta_ForEachReturns_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/capsidjs/capsid/commit/323e35adaaca7237d15804e38fed9c1397313a7b/#diff-40df91deb4df8b1d0d5522cf44bed4fbee56f8d3ec245be69ebbfb66ee415089L396)
 
 delta_0 [commit_url0](https://www.github.com/capsidjs/capsid/commit/323e35adaaca7237d15804e38fed9c1397313a7b)

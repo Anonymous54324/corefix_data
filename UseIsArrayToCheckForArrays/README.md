@@ -1,3 +1,8 @@
+Diff: [delta_UseIsArrayToCheckForArrays_0.html](./delta_UseIsArrayToCheckForArrays_0.html)
+
+Diff: [delta_UseIsArrayToCheckForArrays_1.html](./delta_UseIsArrayToCheckForArrays_1.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/MartinSGill/TodoTxtJs/commit/b08ff2e8e85b7414826827218faefc141c7bacfe/#diff-5959a14503b43a16b1858d0ae432865a223bdbf5b5d90e6448ae1a635d68c8deL69)
 
 delta_0 [commit_url0](https://www.github.com/MartinSGill/TodoTxtJs/commit/b08ff2e8e85b7414826827218faefc141c7bacfe)

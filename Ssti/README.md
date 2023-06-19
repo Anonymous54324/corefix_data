@@ -1,3 +1,8 @@
+Diff: [delta_Ssti_1.html](./delta_Ssti_1.html)
+
+Diff: [delta_Ssti_0.html](./delta_Ssti_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/strues/boldr/commit/64041356d86c24c127e7a75110339c3bc7510b3d/#diff-14706b9c290ee0fe9c54729bb6057d97ef54e2469578d81b40275f8028ccd365L71)
 
 delta_0 [commit_url0](https://www.github.com/strues/boldr/commit/64041356d86c24c127e7a75110339c3bc7510b3d)

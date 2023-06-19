@@ -1,3 +1,8 @@
+Diff: [delta_ElectronInsecureWebPreferences_1.html](./delta_ElectronInsecureWebPreferences_1.html)
+
+Diff: [delta_ElectronInsecureWebPreferences_0.html](./delta_ElectronInsecureWebPreferences_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/yasumichi/seapig/commit/39331b55eb5993a7d51b41883229b46b676f368c/#diff-1119ca1f80466761a6c8bcc072e916fb5416606ba470642ebb3989d7f1b5e9a5L85)
 
 delta_0 [commit_url0](https://www.github.com/yasumichi/seapig/commit/39331b55eb5993a7d51b41883229b46b676f368c)

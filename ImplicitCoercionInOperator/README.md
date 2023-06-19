@@ -1,3 +1,8 @@
+Diff: [delta_ImplicitCoercionInOperator_1.html](./delta_ImplicitCoercionInOperator_1.html)
+
+Diff: [delta_ImplicitCoercionInOperator_0.html](./delta_ImplicitCoercionInOperator_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/glyphr-studio/Glyphr-Studio-1/commit/14388139491609cf87f9725a040ab523505e2262/#diff-4cdade337a23ab978924569477ad673d06fe8b70e55ca6f1b18bc8f0cdd0bff8L256)
 
 delta_0 [commit_url0](https://www.github.com/glyphr-studio/Glyphr-Studio-1/commit/14388139491609cf87f9725a040ab523505e2262)

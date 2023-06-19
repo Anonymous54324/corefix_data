@@ -1,3 +1,8 @@
+Diff: [delta_VuePropsInsideTypos_1.html](./delta_VuePropsInsideTypos_1.html)
+
+Diff: [delta_VuePropsInsideTypos_0.html](./delta_VuePropsInsideTypos_0.html)
+
+<hr>
 delta_0 direct git url to file and line number: [file_url](https://www.github.com/d2-projects/d2-admin/commit/487f9d737401ca7e173aa9a29bd1ebfe8e4a68f8/#diff-a3ea040064f4bbc42920926f72c93a7d777b977b19ae0946e888eb6674b9d19dL22)
 
 delta_0 [commit_url0](https://www.github.com/d2-projects/d2-admin/commit/487f9d737401ca7e173aa9a29bd1ebfe8e4a68f8)
