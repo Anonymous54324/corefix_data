@@ -1,3 +1,5 @@
+> NOTE: Use the web-view hosted here https://anonymous54324.github.io/corefix_data/
+
 # CoReFix Data Samples
 
 This repository contains samples from the data of CoReFix paper. 
@@ -8,6 +10,9 @@ The other url is the link to the commit.
 Please read the last section in the README about github urls.
 
 We would like to avoid sharing the complete dataset yet and therefore for each rule we randomly sampled two instances from our dataset. 
+# How to view the samples?
+
+Please use the web-viewer hosted here: https://anonymous54324.github.io/corefix_data/
 
 # Structure of the repo for a single rule
 
@@ -16,12 +21,6 @@ We would like to avoid sharing the complete dataset yet and therefore for each r
 │   ├── delta_AmbiguousConditional.html # delta for the second sample \
 │   ├── README.md # contains github urls to original repos \
 └── README.md 
-
-
-# How to view the samples?
-
-1. Clone this repo
-2. You can now open the html files in your local browser. Simply click and go thorught the files in your favorite file explorer app as you wish
 
 # Note about GitHub URLs
 
